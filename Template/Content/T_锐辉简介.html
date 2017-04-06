@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{Content.Title}-{Channel.Title}-{Stl.SiteName}</title>
+<!-- header -->
+<stl:include file="/include/header.html"></stl:include>
+
+	<!--header 头部结束-->
+
+
+
+
+<link href="/templets/nettac/images/help_about.css" rel="stylesheet" type="text/css" />
+
+<div class="h_header solid"></div>
+
+<div class="marb20"></div>
+
+<div class="layout solid">
+
+<stl:include file="/include/left_nav.html"></stl:include> 
+   
+    <div class="h_mainright">
+    	<div class="h_location">您现在的位：<stl:location separator=" > "></stl:location></div>
+      	<div class="marb20"></div>
+      
+      
+<!-- start -->
+<div class="h_news">
+
+    <div class="list_about">
+    	<div class="nr">
+        	<stl:content type="Content"></stl:content>
+        </div>
+    </div>
+    
+<div class="marb20"></div>
+
+</div>
+<div class="marb20"></div>
+<stl:include file="/include/服务器推荐.html"></stl:include>
+      
+      <!-- end -->
+      
+    </div>
+    
+    </div>
+</div>
+
+<div class="marb20"></div>
+
+
+
+<DIV class=marb20></DIV>
+
+
+	<!--footer 底部开始-->
+
+<stl:include file="/include/flooter.html"></stl:include>
+
+
+	<!--footer 底部结束-->
+
+
+<!-- 客服 -->
+<stl:include file="/include/services.html"></stl:include>
+
+
+
+
+
+
+
+
+</BODY>
+</HTML>

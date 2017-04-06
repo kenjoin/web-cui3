@@ -1,0 +1,100 @@
+body{
+	scrollbar-highlight-color: #E9EDF3;
+	scrollbar-3dlight-color: #F3F7F8;
+	scrollbar-face-color:#D8EFFF;
+	scrollbar-shadow-color:#ffffff;
+	scrollbar-arrow-color:#1274BA;
+	scrollbar-track-color:#ffffff;
+	scrollbar-darkshadow-color:#ffffff;
+}
+
+A:link {
+	COLOR: #0a4173;
+}
+A:visited {
+	COLOR: #0a4173;
+}
+A:hover {
+	COLOR: #1274BA;
+}
+A:active {
+	COLOR: #1274BA;
+}
+.reverse a:link, .reverse a:visited, .reverse a:active{
+	color:#1274BA;
+}
+.reverse:hover{
+	color:white; background:#1274BA;
+}
+.emphasize{
+	color:#E83820;
+}
+.colordiv{
+	background:#F5FBFF;
+}
+
+.toptitle, .toptitle a:link, .toptitle a:visited{
+	background-image:url(bg_top.gif); color:#FFFFFF;
+}
+
+.toptitle a:hover{
+	background-image:url(bg_top2.gif); color:#FFFFFF;
+}
+
+.toptitle_r, .toptitle_r a:link, .toptitle_r a:visited{
+	background-image:url(bg_top.gif);
+}
+
+.toptitle_r a:hover{
+	background-image:url(bg_top2.gif);
+}
+
+.topline{
+	background-color:#B7D6EC
+}
+.lefttab{
+	background-image:url(bg_left.gif);
+}
+.lefttab2{
+	background:url(bg_left2.gif) no-repeat left top; border:1px #FFF solid;
+}
+.tabOn{
+	background-image:url(tabon.gif);
+}
+.tabOff{
+	background-image:url(taboff.gif);
+}
+.tabOn6{
+	background-image:url(tabon6.gif);
+}
+.tabOff6{
+	background-image:url(taboff6.gif);
+}
+.column{
+	border:1px #B7D6EC solid;
+}
+.columntitle{
+	background:#D8EFFF; border-bottom:1px #B7D6EC solid; color:#0A4173;
+}
+.columntitle span{
+	color:#0A4173;
+}
+.columnsubtitle{
+	background:#F5FBFF; border-top:1px #E4F2FC solid; color:#0A4173; 
+}
+.separator{
+	background:#f4fcfe;
+}
+.colorfocus {
+	border: 1px #86a1ba double;
+	background-color: #fff8e6;
+}
+.colorblur {
+	border: 1px #86a1ba double;
+	background-color: #ffffff;
+}
+.button{border:1px #93b9dc solid;background:url(button_bg.gif) repeat;}
+
+.summary-title { background:#F5FBFF; border-top:1px #E4F2FC solid; }
+
+.tdbg-dark {background: #E4F2FC;}

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<errors>
+  <usererrors>
+  </usererrors>
+  <systemerrors>
+    <systemerror>
+      <message>值不能为空。
+参数名: input</message>
+      <stacktrace>   在 System.Text.RegularExpressions.Regex.Match(String input)
+   在 BaiRong.Core.RegexUtils.GetContents(String groupName, String regex, String html)
+   在 BaiRong.Core.RegexUtils.GetOriginalImageSrcs(String html)
+   在 SiteServer.CMS.Core.PathUtility.SaveImage(PublishmentSystemInfo publishmentSystemInfo, String content)
+   在 SiteServer.CMS.Core.StringUtility.TextEditorContentEncode(String content, PublishmentSystemInfo publishmentSystemInfo, Boolean isSaveImage)
+   在 SiteServer.CMS.BackgroundPages.BackgroundChannelAdd.Submit_OnClick(Object sender, EventArgs E)</stacktrace>
+      <errortime>2017/4/2 22:52:44</errortime>
+    </systemerror>
+    <systemerror>
+      <message>值不能为空。
+参数名: input</message>
+      <stacktrace>   在 System.Text.RegularExpressions.Regex.Match(String input)
+   在 BaiRong.Core.RegexUtils.GetContents(String groupName, String regex, String html)
+   在 BaiRong.Core.RegexUtils.GetOriginalImageSrcs(String html)
+   在 SiteServer.CMS.Core.PathUtility.SaveImage(PublishmentSystemInfo publishmentSystemInfo, String content)
+   在 SiteServer.CMS.Core.StringUtility.TextEditorContentEncode(String content, PublishmentSystemInfo publishmentSystemInfo, Boolean isSaveImage)
+   在 SiteServer.CMS.BackgroundPages.BackgroundChannelAdd.Submit_OnClick(Object sender, EventArgs E)</stacktrace>
+      <errortime>2017/4/2 22:52:54</errortime>
+    </systemerror>
+  </systemerrors>
+</errors>

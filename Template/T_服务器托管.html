@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{Channel.Title}-{Stl.SiteName}</title>
+<!-- header -->
+<stl:include file="/include/header.html"></stl:include>
+
+	<!--header 头部结束-->
+
+
+
+
+<link href="/templets/nettac/images/help_about.css" rel="stylesheet" type="text/css" />
+
+	 <div class="h_header solid"></div>
+
+<div class="marb20"></div>
+
+<div class="layout solid">
+
+<stl:include file="/include/left_nav.html"></stl:include> 
+   
+    <div class="h_mainright">
+    	<div class="h_location">您现在的位：<stl:location separator=" > "></stl:location></div>
+      	<div class="marb20"></div>
+        <div class="h_gsdt">
+		
+          
+<div class="solid">
+ 
+ <div id="fwqtg_tj">
+  <div id="fwqtg_tj_name">{Channel.Title}</div>
+    <div id="fwqtg_tj_xm">
+        <div id="fwqtg_tj_title">机房</div>
+        <div id="fwqtg_tj_jw">机位</div>
+        <div id="fwqtg_tj_xl">线路</div>
+        <div id="fwqtg_tj_dk">默认带宽</div>
+        <div id="fwqtg_tj_yf">默认硬防</div>
+        <div id="fwqtg_tj_ip">另增IP</div>
+        <div id="fwqtg_tj_1nf">月付</div>
+        <div id="fwqtg_tj_3nf">年付</div>
+        <div id="fwqtg_tj_xq">详情</div>
+    </div>
+	<stl:pageContents scope="SelfAndChildren" pageNum="10" cellpadding="2" cellspacing="2">
+    <!-- a href='/a/fuwuqizuyong/fuzhou/132.html' ></a -->
+       <div id="fwqtg_tj_nr">
+            <div id="fwqtg_tj_title"><stl:a title="{Content.Title}"></stl:a></div>
+            <div id="fwqtg_tj_jw">{Content.slot}</div>
+            <div id="fwqtg_tj_xl">{Content.line}</div>
+            <div id="fwqtg_tj_dk">独享<span>{Content.defaultBand}</span>M</div>
+            <div id="fwqtg_tj_yf">单机<span>{Content.defaultDefence}</span>GB</div>
+            <div id="fwqtg_tj_ip"><span>{Content.addIP}元</span>/个/月</div>
+            <div id="fwqtg_tj_1nf"><span>{Content.oneYear}元</span></div>
+            <div id="fwqtg_tj_3nf"><span>{Content.threeYears}元</span></div>
+            <div id="fwqtg_tj_xq"><i><stl:a title="{Content.Title}">查看详情</stl:a></i></div>
+       </div>
+ 	</stl:pageContents>
+ </div>
+</div>
+
+
+<br />
+    <stl:pageItems>
+        <table cellpadding="0" cellspacing="0" width="90%" height="40" align="center" class="page_table">
+        <tr><td align="left">
+        <stl:pageItem type="FirstPage" text="首页"></stl:pageItem> |
+        <stl:pageItem type="PreviousPage" text="上一页"></stl:pageItem> |
+        <stl:pageItem type="NextPage" text="下一页"></stl:pageItem> |
+        <stl:pageItem type="LastPage" text="末页"></stl:pageItem>
+        </td><td align="right">
+        <stl:pageItem type="TotalPageNum" text="共"></stl:pageItem>页
+        <stl:pageItem type="TotalNum"></stl:pageItem>条
+        <stl:pageItem type="PageSelect"></stl:pageItem>
+        <stl:pageItem type="CurrentPageIndex" text="当前页："></stl:pageItem>
+        <stl:pageItem type="PageNavigation"></stl:pageItem>
+        </td></tr></table>
+    </stl:pageItems>
+
+           
+<div class="marb20"></div>
+
+<stl:include file="/include/服务器推荐.html"></stl:include>
+
+        </div>
+    </div>
+    
+</div>
+
+
+<div class="marb20"></div>
+
+
+
+<DIV class=marb20></DIV>
+
+
+	<!--footer 底部开始-->
+
+<stl:include file="/include/flooter.html"></stl:include>
+
+
+	<!--footer 底部结束-->
+
+
+<!-- 客服 -->
+<stl:include file="/include/services.html"></stl:include>
+
+
+
+
+
+
+
+
+</BODY>
+</HTML>

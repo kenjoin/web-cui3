@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{Stl.SiteName}</title>
+<style>
+	body{background:#f0f0f0;}
+</style>
+<!-- header -->
+<stl:include file="/include/header.html"></stl:include>
+
+	<!--header 头部结束-->
+	<!--slides 幻灯片开始-->
+	<DIV class=flexslider>
+		<UL class=slides>
+        
+        	<stl:contents channelIndex="l8_1_1">
+            	<li style="BACKGROUND:url({Content.ImageUrl}) no-repeat 50% 0px;">
+                	<a href="{Content.NavigationUrl}"></a>
+                </li>
+            </stl:contents>
+       		
+		</UL>
+	</DIV>
+	<!--slides 幻灯片结束-->
+
+
+
+
+	<!--推荐服务器-->
+	<!-- 来自服务器租用 -->
+	<div class="layout solid title">
+		<h3>推荐机型</h3>
+		<SPAN class="blue right">
+        	<stl:a channelIndex="l1">更多 &gt;&gt;&gt;</stl:a>
+        </SPAN>
+	</div>
+	<div class="wfq layout solid">
+		
+        <stl:contents channelIndex="l1" totalNum="4" isTop="true" scope="All">
+        	<div class="zhuji">
+                <H3>{Content.Title}</H3>
+                <stl:a><stl:image alt='{Content.Title}'></stl:image></stl:a>
+                <div class="fwqpz">
+                    <li>CPU:{Content.CPU}</li>
+                    <li>内存:<span>{Content.memory}</span> GB
+                    </li>
+                    <li>硬盘:<span>{Content.disk}</span> GB
+                    </li>
+                    <li>线路:{Content.circuit}</li>
+                    <li>月付:<span>{Content.month}元</span>/月
+                    </li>
+                    <li>年付:<span>{Content.year}元</span>/年
+                    </li>
+                </div>
+                <div class="xiangqing">
+                    <stl:a>查看详情</stl:a>
+                </div>
+            </div>
+        </stl:contents>
+
+		
+     </div>
+	<!--推荐服务器-->
+
+
+	<DIV class=marb20></DIV>
+	<!--产品服务  服务器托管-->
+	<DIV class="layout solid title">
+		<H3>产品服务</H3>
+	</DIV>
+	<DIV class="layout solid product">
+		<UL>
+			
+            <stl:channels channelIndex="首页" totalNum="5">
+            	
+                <LI class=box><H3>{Channel.Title}</H3>            
+                    <I class="p{Channel.ItemIndex}"></I><EM>资源按需定制，每天<SPAN>5折</SPAN>秒杀<BR>续费返还现金
+                </EM> 
+                    <stl:a class=buy>购买</stl:a> <B></B></LI>
+
+            </stl:channels>
+
+		</UL>
+	</DIV>
+	<!--产品服务-->
+
+
+
+	<DIV class=marb20></DIV>
+
+
+	<!--机防介绍-->
+	<div class=jfjs>
+		<div class="layout solid title">
+			<h3>机房介绍</h3>
+			<SPAN class="blue right"><stl:a channelIndex="l4">更多&gt;&gt;&gt;</stl:a></SPAN>
+		</div>
+
+		<div class="sls_txt">
+			
+            <stl:contents channelIndex="l4" totalNum="3" isRecommend="true" scope="All">
+            
+                <div class="sls_tbox_odd">
+                    <div class="tbox_img">
+                        <stl:a alt="{Content.Title}" title="{Content.Title}"><stl:image></stl:image></stl:a>
+                        <ul class="tbox_img">
+                            <h3>
+                            <stl:a alt="{Content.Title}" title="{Content.Title}">{Content.Title}</stl:a>
+                            
+                            </h3>
+                            <li>机防等级：<span>{Content.machineLevel}</span></li>
+                            <li>网络线路：{Content.netLine}</li>
+                            <li>目前机柜：<span>{Content.machineNum}</span></li>
+                            <li>创办时间：{Content.createTm}</li>
+                            <I><stl:a channelIndex="查看详情"></stl:a></i>
+                        </ul>
+                    </div>
+                    <div class="tbox_txt"><stl:content type="describe" wordNum="100" ellipsis="..."></stl:content></div>
+                </div>
+            
+            </stl:contents>
+			
+          
+		</div>
+
+
+	</div>
+	<!--机防介绍-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<DIV class=marb20></DIV>
+	<DIV class="layout solid">
+		<DIV class="shuzi solid">
+			<UL>
+            	<stl:contents channelIndex="l8_1_2" totalNum="5">
+                <LI>
+					<H3 style="font-family: cursive; color: #807D7D;">
+                    {Content.Title}
+					</H3>
+					<P>
+                    	{Content.Content}
+					</P>
+				</LI>
+                </stl:contents>
+				
+				
+			</UL>
+		</DIV>
+	</DIV>
+	<!--client-->
+	<DIV class="layout solid title">
+		<H3>客户案例</H3>
+		<SPAN class="blue right"><stl:a channelIndex="l6_4">更多 &gt;&gt;&gt;</stl:a></SPAN>
+	</DIV>
+	<DIV class="layout solid">
+		<DIV class="leftLoop_client leftLoop_client1 client">
+			<DIV class=bd>
+				<UL class=picList>
+                                        
+                    <stl:contents channelIndex="l6_4" isImage="true">
+                    	<li>
+                        	<stl:a><stl:image height="60" width="185" alt="{Content.Title}"></stl:image></stl:a>
+                            <p>{Content.Title}</p>
+                        </li>
+                    </stl:contents>
+
+				</UL>
+			</DIV>
+			<DIV class=hd>
+				<UL>
+					<A class="next"></A>
+					<stl:contents channelIndex="l6_4" isImage="true">
+                    	<li class=client_li5>5
+						<DIV class=js5><stl:content type="Content" wordNum="60"></stl:content></DIV>
+						<A class="prev>"</A>
+                        </li>
+                    </stl:contents>
+				</UL>
+			</DIV>
+			<DIV class=mask_left></DIV>
+			<DIV class=mask_text1></DIV>
+			<DIV class=mask_right></DIV>
+			<DIV class=mask_text2></DIV>
+		</DIV>
+
+
+
+
+
+		<SCRIPT type=text/javascript>
+			jQuery(".client").slide({
+				mainCell : ".bd ul",
+				effect : "leftLoop",
+				vis : 5,
+				scroll : 1,
+				autoPlay : true
+			});
+		</SCRIPT>
+	</DIV>
+	</DIV>
+
+
+
+
+	<DIV class=marb20></DIV>
+
+
+	<!--footer 底部开始-->
+
+<stl:include file="/include/flooter.html"></stl:include>
+
+
+	<!--footer 底部结束-->
+
+
+<!-- 客服 -->
+<stl:include file="/include/services.html"></stl:include>
+
+
+</BODY>
+</HTML>

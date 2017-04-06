@@ -1,0 +1,68 @@
+﻿<%@ Register TagPrefix="bairong" Namespace="BaiRong.Controls" Assembly="BaiRong.Controls" %>
+<%@ Register TagPrefix="user" Namespace="UserCenter.Controls" Assembly="UserCenter.Pages" %>
+<%@ Register TagPrefix="space" Namespace="SiteServer.Space.Controls" Assembly="SiteServer.Space" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=7" />
+  <asp:contentplaceholder id="TitleHolder" runat="server">
+    <space:UserTheme runat="server" type="Title"></space:UserTheme>
+  </asp:contentplaceholder>
+  <bairong:Script runat="server" visible="true" Src="~/sitefiles/bairong/scripts/global.v1.3.5.js" />
+  <bairong:Script runat="server" visible="true" Src="~/sitefiles/bairong/scripts/behaviour.v1.1.js" />
+  <bairong:Script runat="server" visible="true" Src="~/sitefiles/bairong/scripts/prototype-1.6.1.js" />
+  <bairong:Script runat="server" visible="true" Src="~/sitefiles/bairong/scripts/myprototype.v1.0.js" />
+  <bairong:Script runat="server" visible="true" Src="~/sitefiles/bairong/scripts/scriptaculous.1.8.3/scriptaculous.js?load=effects,dragdrop" />
+  <space:UserTheme runat="server" type="Script"></space:UserTheme>
+  <bairong:Script runat="server" visible="true" Src="~/LiveFiles/scripts/personmenu.js" />
+  <asp:contentplaceholder id="GlobalScriptHolder" runat="server"></asp:contentplaceholder>
+  <bairong:Style runat="server" visible="true" Href="~/LiveFiles/Styles/core/style.v.080606.css" />
+  <space:UserTheme runat="server" type="Style" default="simple/default"></space:UserTheme>
+  <bairong:Style runat="server" visible="true" Href="~/LiveFiles/Styles/core/style.css" />
+  <asp:contentplaceholder id="ScriptHolder" runat="server"></asp:contentplaceholder>
+  <asp:contentplaceholder id="StyleHolder" runat="server"></asp:contentplaceholder>
+
+</head>
+<body>
+<space:ShowPopWin runat="server" />
+<space:MyForm method="post" runat="server">
+<space:UserHeader runat="server" />
+<asp:contentplaceholder id="LocationHolder" runat="server">
+<bairong:Message runat="server"></bairong:Message>
+</asp:contentplaceholder>
+<div id="mainWrapper">
+	<div id="innerMainWrapper">
+		<asp:contentplaceholder id="TemplateHolder" runat="server"></asp:contentplaceholder>
+		<div class="clear"></div>
+	</div>
+</div>
+
+</space:MyForm>
+<script>
+	var myGlobalHandlers = {
+		onCreate: function(){
+			Element.show('systemWorking');
+		},
+
+		onComplete: function() {
+			if(Ajax.activeRequestCount == 0){
+				Element.hide('systemWorking');
+			}
+		},
+		
+		onException: function() {
+			Element.hide('systemWorking');
+			Element.show('systemError');
+		}
+	};
+
+	Ajax.Responders.register(myGlobalHandlers);
+</script>
+<div id='systemWorking' style="position:absolute; top:2px; right:2px; background-color:#CE4542;color:#FFFFFF;font-size:12px;height:16px; padding:2 2;display:none">正在加载...</div>
+<div id='systemError' style="position:absolute; top:2px; right:2px; background-color:#CE4542;color:#FFFFFF;font-size:12px;height:16px; padding:2 2;display:none">系统繁忙，请重试...</div>
+<space:Footer runat="server" />
+<space:UserDropdown runat="server" />
+</body>
+</html>

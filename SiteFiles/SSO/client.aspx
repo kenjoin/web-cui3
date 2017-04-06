@@ -1,0 +1,1 @@
+<%@ Page Language="c#" Inherits="BaiRong.BackgroundPages.SSO.ClientPage" Trace="False" %>

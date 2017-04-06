@@ -1,0 +1,1 @@
+﻿<%@ Page Inherits="SiteServer.B2C.BackgroundPages.BackgroundUtils" %>

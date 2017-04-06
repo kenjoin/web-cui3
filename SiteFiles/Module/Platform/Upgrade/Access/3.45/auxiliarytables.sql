@@ -1,0 +1,4 @@
+ALTER TABLE {0} ADD 
+[Tags] text (255) NOT NULL DEFAULT ""
+
+GO

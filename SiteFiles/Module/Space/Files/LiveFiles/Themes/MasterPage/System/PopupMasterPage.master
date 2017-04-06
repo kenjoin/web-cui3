@@ -1,0 +1,85 @@
+﻿<%@ Master Language="C#"%>
+<%@ Register TagPrefix="bairong" Namespace="BaiRong.Controls" Assembly="BaiRong.Controls" %>
+<%@ Register TagPrefix="user" Namespace="UserCenter.Controls" Assembly="UserCenter.Pages" %>
+<%@ Register TagPrefix="space" Namespace="SiteServer.Space.Controls" Assembly="SiteServer.Space" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=7" />
+  <bairong:Script runat="server" visible="true" Src="~/sitefiles/bairong/scripts/global.v1.3.5.js" />
+  <bairong:Script runat="server" visible="true" Src="~/sitefiles/bairong/scripts/pngfix.js" />
+  <bairong:Script runat="server" visible="true" Src="~/sitefiles/bairong/scripts/behaviour.v1.1.js" />
+  <bairong:Script runat="server" visible="true" Src="~/sitefiles/bairong/scripts/prototype.v1.5.0.js" />
+  <asp:contentplaceholder id="GlobalScriptHolder" runat="server"></asp:contentplaceholder>
+  <bairong:Style runat="server" visible="true" Href="~/sitefiles/bairong/styles/bairong.css.1.0" />
+  <bairong:Style runat="server" visible="true" Href="~/livefiles/styles/css/global.css" />
+  <bairong:Style runat="server" visible="true" Href="~/livefiles/styles/css/spaces.css" />
+  <bairong:Style runat="server" visible="true" Href="~/livefiles/styles/Simple/PersonalSpaceDkBlu/hig.css" />
+  <bairong:Style runat="server" visible="true" Href="~/livefiles/styles/Simple/PersonalSpaceDkBlu/controls.css" />
+  <bairong:Style runat="server" visible="true" Href="~/livefiles/styles/Simple/PersonalSpaceDkBlu/spaces.css" />
+  <bairong:Style runat="server" visible="true" Href="~/livefiles/styles/Simple/PersonalSpaceDkBlu/controlsEx.css" />
+  <bairong:Style runat="server" visible="true" Href="~/livefiles/styles/css/addition.css" />
+  <asp:contentplaceholder id="ScriptHolder" runat="server"></asp:contentplaceholder>
+  <asp:contentplaceholder id="StyleHolder" runat="server"></asp:contentplaceholder>
+</head>
+<body>
+<form method="post" runat="server">
+<DIV style="HEIGHT: auto;">
+  
+<DIV class=" Live_Controls_Header Web_Bindings_Base" id=header>
+  <DIV class=headerTopFake></DIV>
+  <DIV class=stroke></DIV>
+  <DIV class=inside>
+    <table width="100%" style="height:70px;" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td style="width:140px;" align="center"><asp:Image ImageUrl="~/liveserver/pic/usericon.gif" runat="server" align="absmiddle" /></td>
+        <td valign="top" align="left" style="width:600px;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td><DIV style="font:normal 13.5pt tahoma,arial;">
+                  <bairong:AjaxTextEditor id="TitleBarSpaceName" EmptyText="点击添加个人主页标题" runat="server" />
+                </DIV></td>
+            </tr>
+            <tr>
+              <td><DIV style="margin-top:5px;">
+                  <bairong:AjaxTextEditor id="TitleBarSpaceDescription" Multiple="true" EmptyText="点击添加个人主页简介" runat="server" />
+                </DIV></td>
+            </tr>
+          </table></td>
+        <td style="width:200px;">
+<DIV class="MeSection Live_Controls_MeSimple Web_Bindings_Base signedout">
+            <DIV class=sme>
+					<asp:HyperLink NavigateUrl="~/login.aspx" class="ppl" runat="server" Text="登录"></asp:HyperLink>&nbsp;|
+					<asp:HyperLink NavigateUrl="~/register.aspx" class="ppl" runat="server" Text="注册"></asp:HyperLink>&nbsp;|
+				<asp:HyperLink NavigateUrl="~/" class="ppl" runat="server" Text="返回首页"></asp:HyperLink><br />
+			<nobr> <asp:HyperLink ID="TitleBarDomainName" class="ppl" Target="_top" runat="server"></asp:HyperLink></nobr>
+			</DIV>
+          </DIV></td>
+      </tr>
+    </table>
+  </DIV>
+</DIV>
+  
+  </DIV>
+
+  <div id="pageFrame">
+    <div id="innerBody">
+      <div id="toppage" name="SpaceTemplateRegion">
+	    <div class="separator"></div>
+		<TABLE class=FullView id=layoutManager cellSpacing=0 cellPadding=0 style="width:100%;">
+<TBODY><TR><TD style="width:100%;vertical-align:top;height:auto;">
+<DIV class="ContainerFullView fullPageOuter SPTransparency" style="height:340px;">
+	<div style="margin-left:10px;margin-right:10px;">
+		<asp:contentplaceholder id="ContentHolder" runat="server"></asp:contentplaceholder>
+	</div>
+</DIV>
+</TD></TR>
+</TBODY></TABLE>
+      </div>
+    </div>
+  </div>
+</form>
+<space:Skin runat="server" Path="~/LiveFiles/Themes/Default/Skins/Skin-Footer.ascx" />
+</body>
+</html>

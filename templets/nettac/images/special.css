@@ -1,0 +1,18 @@
+﻿/* CSS Document */
+
+#sy_con {width:100%; font-family:"微软雅黑"; font-size:18px; color:#555; background:#f1f3f5; overflow:hidden;}
+#sy_con span {color:#f43610;}
+#sy_con i {text-decoration:line-through;}
+
+.sy_t1 {width:1000px; padding:50px 0px 0px 200px; height:54px; line-height:54px; float:left; margin-top:0px;font-size:22px;}
+.sy_t2 {width:1200px;padding:0px 0px 0px 200px; height:80px; float:left;font-size:30px;color:#f43610;line-height:80px;}
+.sy_t3 {width:1000px; padding:0px 0px 0px 200px; height:44px; line-height:44px; float:left;}
+.sy_t4 {width:910px; padding:10px 0px 0px 290px; float:left; line-height:38px; background:url(../images/sy_08.jpg) no-repeat 200px 25px;}
+.sy_t5 {width:875px; padding:0px 0px 10px 325px; float:left; line-height:38px;}
+.sy_t6 {width:910px; padding:10px 0px 0px 290px; float:left; line-height:38px; background:url(../images/sy_11.jpg) no-repeat 200px 25px;}
+.sy_t7 {width:875px; padding:0px 0px 30px 325px; float:left; line-height:38px;}
+.sy_t8 {width:1200px;padding:0px 0px 0px 200px; height:80px; float:left;font-size:30px;color:#f43610;line-height:80px;}
+.sy_t9 {width:1000px; padding:0px 0px 30px 290px; line-height:32px; font-size:16px; float:left; background:url(../images/sy_16.jpg) no-repeat 800px 0px;}
+
+.root {width:100%; float:left; padding:20px 0px 20px 0px; text-align:center; line-height:24px; color:#717171; border-top:1px solid #eee; background:#fff;}
+

@@ -1,0 +1,22 @@
+﻿<%@ Master Language="C#"%>
+<%@ Register TagPrefix="bairong" Namespace="BaiRong.Controls" Assembly="BaiRong.Controls" %>
+<%@ Register TagPrefix="user" Namespace="UserCenter.Controls" Assembly="UserCenter.Pages" %>
+<%@ Register TagPrefix="space" Namespace="SiteServer.Space.Controls" Assembly="SiteServer.Space" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=7" />
+  <asp:contentplaceholder id="TitleHolder" runat="server"></asp:contentplaceholder>
+  <bairong:Script runat="server" visible="true" Src="~/sitefiles/bairong/scripts/global.v1.3.5.js" />
+  <bairong:Script runat="server" visible="true" Src="~/sitefiles/bairong/scripts/prototype-1.6.1.js" />
+  <bairong:Style runat="server" visible="true" Href="~/livefiles/styles/core/modal/modalstyle.css" />
+  <bairong:Style runat="server" visible="true" Href="~/livefiles/styles/core/modal/style.css" />
+</head>
+<body>
+<space:MyForm method="post" runat="server">
+<asp:contentplaceholder id="ContentHolder" runat="server"></asp:contentplaceholder>
+</space:MyForm>
+</body>
+</html>

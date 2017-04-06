@@ -1,0 +1,1 @@
+﻿<%@ Page Language="c#" Inherits="UserCenter.System.Pages.Ajax.Form" Trace="False" EnableViewStateMac="false" %>

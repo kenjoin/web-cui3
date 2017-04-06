@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/LiveFiles/Themes/MasterPage/User/BaseMasterPage.master" %>
+<%@ Register TagPrefix="bairong" Namespace="BaiRong.Controls" Assembly="BaiRong.Controls" %>
+<%@ Register TagPrefix="user" Namespace="UserCenter.Controls" Assembly="UserCenter.Pages" %>
+<%@ Register TagPrefix="space" Namespace="SiteServer.Space.Controls" Assembly="SiteServer.Space" %>
+
+<asp:content contentplaceholderid="ScriptHolder" runat="server">
+	<asp:contentplaceholder id="ScriptHolder" runat="server"></asp:contentplaceholder>
+</asp:content>
+<asp:content contentplaceholderid="StyleHolder" runat="server">
+	<bairong:Style runat="server" visible="true" Href="~/livefiles/styles/css/photos.css" />
+	<asp:contentplaceholder id="StyleHolder" runat="server"></asp:contentplaceholder>
+</asp:content>
+<asp:content contentplaceholderid="TemplateHolder" runat="server">
+
+<TABLE class=FullView id=layoutManager cellSpacing=0 cellPadding=0 style="width:100%;">
+<TBODY><TR><TD style="width:100%;vertical-align:top;height:auto;">
+<DIV class="ContainerFullView fullPageOuter SPTransparency" style="margin-left:10px;margin-right:10px;">
+	<div style="margin-left:60px;margin-right:30px;">
+		<space:SubNav id="SubNav" runat="server" />
+		<br />
+		<asp:contentplaceholder id="ContentHolder" runat="server"></asp:contentplaceholder>
+	</div>
+</DIV>
+</TD></TR>
+</TBODY></TABLE>
+
+</asp:content>

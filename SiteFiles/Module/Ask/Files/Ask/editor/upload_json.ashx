@@ -1,0 +1,1 @@
+﻿<%@ webhandler Language="C#" class="SiteServer.Ask.Pages.Editor.Upload" %>

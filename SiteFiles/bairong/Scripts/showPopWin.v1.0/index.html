@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+	<title>subModal DHTML Modal Dialog / Modal Window Test Page</title>
+	
+	<script type="text/javascript" src="../prototype.v1.5.0.js"></script>
+	<script type="text/javascript" src="../scriptaculous.1.6.2/scriptaculous.js"></script>
+	<script type="text/javascript" src="../global.v1.3.5.js"></script>
+	
+</head>
+<body>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript" src="script.js"></script>
+<div id="popupMask" unselectable="on" style="display: none;">&nbsp;</div>
+<div id="popupContainer" unselectable="on">
+  <div id="popupInner">
+    <div id="popupTitleBar">
+		<table border="0" cellpadding="0" cellspacing="0" style="background-color:#FFFFFF; width:100%; height:100%">
+			<tbody>
+				<td id="popupTitleLeft"></td>
+				<td id="popupTitleCenter"><div id="popupTitle" unseletable="on"></div></td>
+				<td id="popupTitleClose"><div id="popupControls"><img id="popupClose" src="images/close.gif" onclick="hidePopWin(false);" alt="快捷键：ESC" /></div></td>
+				<td id="popupTitleRight"></td>
+			</tbody>
+		</table>
+    </div>
+	<table border="0" cellpadding="0" cellspacing="0" style="width:100%; height:100%">
+		<tbody>
+			<tr style="background-color:#FFFFFF;">
+				<td style="background-color:#f4f5eb; border-color:#b3b6b0; border-left-style:solid; border-width:medium medium medium 1px; border-left-width:1px; width:4px;">&nbsp;</td>
+				<td style="padding-left:2px;"><iframe src="loading.html" initSrc="loading.html" id="popupFrame" name="popupFrame"
+	  style="width:100%;height:100%;background-color:transparent;" 
+	  scrolling="auto" frameborder="0" 
+	  allowtransparency="true"
+	  width="100%" height="100%"></iframe></td>
+				<td style="background-color:#f4f5eb; border-bottom-color:#b3b6b0; border-color:#b3b6b0; border-right-style:solid; border-width:medium medium medium 1px; border-right-width:1px; width:4px;">&nbsp;</td>
+			</tr>
+			<tr>
+				<td id="popupBottomLeft"></td>
+				<td id="popupBottomCenter"></td>
+				<td id="popupBottomRight"></td>
+			</tr>
+		</tbody>
+	</table>
+  </div>
+</div>
+
+<div style="width:500px;">
+<h1>subModal test page</h1>
+<p>
+This is a test page for the subModal - a DHTML modal dialog solution.
+</p>
+<p>
+To check out a demonstration, click the button below.
+</p>
+<button onclick="showPopWin('modalContent.html?x=2', 400, 200, null);">show modal window button</button>
+<br/>
+<a class="submodal" href="modalContent.html">show modal window using class</a>
+<br/>
+<a class="submodal-200-400" href="modalContent.html">show modal window using class and overriding default size</a>
+<p>
+<strong><a href="subModal.zip">Download the code.</a></strong>
+</p>
+<h2>Interested to know how this works?</h2>
+<p>
+<a href="/sublog/subModal">Check out the explanation.</a>
+</p>
+<p>
+This demo is known to work in IE 6.x, FireFox 1.x, Safari &amp; Opera 7.x.
+</p>
+<p>
+CSS transparency is being used in IE, but is available on FireFox &amp; Safari as well.
+</p>
+<p>
+Right now I'm using a 24bit transparent PNG for the background. This allows transparency to work in Opera as well, since their CSS support is a bit lacking.
+<br />
+If you don't care about opera and want control of the color or opacity of the mask from the css, comment that section out.
+</p>
+<p>
+</p>
+</div>
+
+</body>
+</html>

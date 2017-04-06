@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{Content.Title}-{Channel.Title}-{Stl.SiteName}</title>
+<!-- header -->
+<stl:include file="/include/header.html"></stl:include>
+
+	<!--header 头部结束-->
+
+
+
+
+<link href="/templets/nettac/images/help_about.css" rel="stylesheet" type="text/css" />
+
+<div class="h_header solid"></div>
+
+<div class="marb20"></div>
+
+<div class="layout solid">
+
+<stl:include file="/include/left_nav.html"></stl:include> 
+   
+    <div class="h_mainright">
+    	<div class="h_location">您现在的位：<stl:location separator=" > "></stl:location></div>
+      	<div class="marb20"></div>
+      
+      
+<!-- start -->
+<div class="h_news">
+        	
+
+
+<!--表格start-->
+<div id="fwqzy_19">
+<div id="fwqzy_18">{Content.Title}机柜火爆订购中</div>
+<div class="fwqzy_21">
+<div id="fwqzy_22">项目</div>
+<div id="fwqzy_23">详细</div>
+<div id="fwqzy_25">时间</div>
+</div>
+
+<div class="fwqzy_26">
+<div id="fwqzy_27">机房</div>
+<div id="fwqzy_23">台州</div>
+<div id="fwqzy_28">一季</div>
+<div id="fwqzy_24">一年</div>
+
+</div>
+<!------------->
+<div class="fwqzy_26max">
+<div class="fwqzy_26a">
+<div id="fwqzy_27">机柜尺寸</div>
+<div id="fwqzy_23"><span>{Content.size}</span>U</div>
+</div>
+
+
+<div class="fwqzy_26a">
+<div id="fwqzy_27">默认带宽</div>
+<div id="fwqzy_23"><span>{Content.defaultBand}</span>M</div>
+</div>
+
+<div class="fwqzy_26a">
+<div id="fwqzy_27">线路</div>
+<div id="fwqzy_23"><span>{Content.line}</span></div>
+</div>
+
+<div class="fwqzy_26a">
+<div id="fwqzy_27">赠送IP数</div>
+<div id="fwqzy_23"><span>{Content.defaultIPNum}</span>个</div>
+</div>
+
+<div class="fwqzy_26a">
+<div id="fwqzy_27">默认防御</div>
+<div id="fwqzy_23"><span>{Content.defence}</span>G</div>
+</div>
+
+<div class="fwqzy_26a">
+<div id="fwqzy_27">机器台数</div>
+<div id="fwqzy_23"><span>{Content.chineNum}</span>台</div>
+</div>
+</div>
+
+<div id="fwqzy_img"><img src="/uploads/allimg/151109/1-1511091203292T.jpg" alt="{Content.Title}机柜火爆订购中">
+
+</div>
+<!------------->
+
+<div class="fwqzy_26">
+<div id="fwqzy_27">价格</div>
+<div id="fwqzy_23">人民币</div>
+<div id="fwqzy_28"><span>{Content.seasonPay}元</span>/季</div>
+<div id="fwqzy_24"><span>{Content.yearPay}元</span>/年</div>
+</div>
+
+
+<div class="fwqzy_26">
+<div id="fwqzy_miaoshu">描述</div>
+<div id="fwqzy_miaoshu2">{Content.Content}</div>
+<div id="fwqzy_dingg"><a onclick="tryOnLine();" href="javascript:;"> 立即购买 </a></div>
+</div>
+
+</div>
+<!--表格end-->
+
+
+<div class="marb20"></div>
+
+<!-- start1 -->
+<div class="solid">
+<div class="fwqzyxxsm">推荐机柜</div>
+ <div id="jgzy_list">
+  <div id="jgzy_list_name">{Channel.Title}</div>
+       <div id="jgzy_list_xm">
+            <div id="jgzy_list_title">机房</div>
+            <div id="jgzy_list_jw">机柜尺寸</div>
+            <div id="jgzy_list_xl">默认带宽</div>
+            <div id="jgzy_list_dk">线路</div>
+            <div id="jgzy_list_yf">默认IP数</div>
+            <div id="jgzy_list_ip">赠送防御</div>
+            <div id="jgzy_list_1nf">限制台数</div>
+            <div id="jgzy_list_3nf">季付</div>
+            <div id="jgzy_list_3nf">年付</div>
+            <div id="jgzy_list_xq">详情</div>
+       </div>
+    <stl:contents channelIndex="l3" isRecommend="true" scope="SelfAndChildren">
+    <!-- a href='/a/fuwuqizuyong/fuzhou/132.html' ></a -->
+      <div id="jgzy_list_nr">
+        <div id="jgzy_list_title"><stl:a title="{Content.Title}机柜火爆订购中"></stl:a></div>
+        <div id="jgzy_list_jw"><span>{Content.size}</span>U</div>
+        <div id="jgzy_list_xl"><span>{Content.defaultBand}</span>M</div>
+        <div id="jgzy_list_dk"><span>{Content.line}</span></div>
+        <div id="jgzy_list_yf"><span>{Content.defaultIPNum}</span>/个</div>
+        <div id="jgzy_list_ip"><span>{Content.defence}</span>G</div>
+        <div id="jgzy_list_1nf"><span>{Content.chineNum}</span>台</div>
+        <div id="jgzy_list_3nf"><span>{Content.seasonPay}</span>元</div>
+        <div id="jgzy_list_3nf"><span>{Content.yearPay}</span>元</div>
+        <div id="jgzy_list_xq"><i><stl:a>查看详情</stl:a></i></div>
+      </div>
+      </stl:contents>
+	</div>
+</div>
+<!-- end1 -->
+
+<div class="marb20"></div>
+ 
+
+</div>
+<div class="marb20"></div>
+<stl:include file="/include/服务器推荐.html"></stl:include>
+      
+      <!-- end -->
+      
+    </div>
+    
+    </div>
+</div>
+
+<div class="marb20"></div>
+
+
+
+<DIV class=marb20></DIV>
+
+
+	<!--footer 底部开始-->
+
+<stl:include file="/include/flooter.html"></stl:include>
+
+
+	<!--footer 底部结束-->
+
+
+<!-- 客服 -->
+<stl:include file="/include/services.html"></stl:include>
+
+
+
+
+
+
+
+
+</BODY>
+</HTML>

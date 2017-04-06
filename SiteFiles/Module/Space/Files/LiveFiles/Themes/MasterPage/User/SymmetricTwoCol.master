@@ -1,0 +1,450 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/LiveFiles/Themes/MasterPage/User/BaseMasterPage.master" %>
+<%@ Register TagPrefix="bairong" Namespace="BaiRong.Controls" Assembly="BaiRong.Controls" %>
+<%@ Register TagPrefix="user" Namespace="UserCenter.Controls" Assembly="UserCenter.Pages" %>
+<%@ Register TagPrefix="space" Namespace="SiteServer.Space.Controls" Assembly="SiteServer.Space" %>
+
+<asp:content contentplaceholderid="TemplateHolder" runat="server">
+<table class="SymmetricTwoCol" id="layoutManager" cellspacing="0" cellpadding="0">
+<tr>
+  <td id="MainFocus" class="TopToBottom" isTarget="true"><div class="ContainerMovable spDefaultFrame SPTransparency">
+	  <div>
+		<div class="viewActive"  id="SiteTools">
+		  <div class="LeftNav">
+			<table class="spNavHoriz">
+			  <tr>
+				<td><ul class="List">
+					<li><a href="http://starlying.spaces.live.com/feed.rss" title="订阅 RSS 源"><img alt="订阅 RSS 源" src="http://sc.services.spaces.live.com/10.08.3207.0001/Web/images/synd.gif">订阅 RSS 源</a></li>
+					<li><a href="mailto:?subject=%C7%C6%C7%C6%D5%E2%B8%F6%CD%F8%D5%BE%A1%A3&body=http://starlying.spaces.live.com/" title="告诉朋友"><img src="http://sc.services.spaces.live.com/10.08.3207.0001/Web/images/tellfrnd.gif">告诉朋友</a></li>
+				  </ul></td>
+			  </tr>
+			</table>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<div class="separator"></div>
+	<div id="SpaceContentsPart" MultiInstance="False" class="FullRegionWidth" Placement="Anywhere" Movable="True">
+	  <div class="ContainerMovable spDefaultFrame SPTransparency">
+		<div>
+		  <div class="viewActive" >
+			<div class="LeftNav">
+			  <table class="spNavHoriz">
+				<tr>
+				  <td><ul class="List">
+					  <li class="nowrap"><a href="http://starlying.spaces.live.com/PersonalSpace.aspx?_c01_memberprofiletile=showdefault&_c=memberprofiletile&_c02_owner=1" title="查看档案文件的详细信息"><img alt="查看档案文件的详细信息" src="http://sc.services.spaces.live.com/10.08.3207.0001/Web/images/profileicon.gif">档案文件</a></li>
+					  <li class="nowrap"><a href="http://starlying.spaces.live.com/blog/?&_c02_owner=1" title="查看网络日志的详细信息"><img alt="查看网络日志的详细信息" src="http://sc.services.spaces.live.com/10.08.3207.0001/Web/images/blogicon.gif">网络日志</a></li>
+					  <li class="nowrap"><a href="http://starlying.spaces.live.com/photos/?&_c02_owner=1" title="查看或添加照片"><img alt="查看或添加照片" src="http://sc.services.spaces.live.com/10.08.3207.0001/Web/images/photoicon.gif">照片</a></li>
+					  <li class="nowrap"><a href="http://starlying.spaces.live.com/lists/?&_c02_owner=1" title="创建列表"><img alt="创建列表" src="http://sc.services.spaces.live.com/10.08.3207.0001/Web/images/listsicon.gif">列表</a></li>
+					</ul></td>
+				</tr>
+			  </table>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<div class="separator"></div>
+	<div id="TitleTaglinePart" MultiInstance="False" class="FullRegionWidth" Placement="Anywhere" Movable="True">
+	  <div class="ContainerMovable spDefaultFrame SPTransparency">
+		<div class="ContainerPadding">
+		  <div>
+			<h1 >star的共享空间</h1>
+		  </div>
+		  <span style='display:none'></span> </div>
+	  </div>
+	</div>
+	<div class="separator"></div>
+	<div id="BlogPart" MultiInstance="False" class="FullRegionWidth" Placement="Anywhere" Movable="True">
+	  <div class="ContainerMovable spDefaultFrame SPTransparency">
+		<div class="sppPartTitle">
+		  <div class="partHeader">
+			<div class="ContainerHeader">
+			  <table style="table-layout:fixed; width:100%" cellpadding="0" cellspacing="0">
+				<tr>
+				  <td width="100%"><div class='ellipse Title partDetail' style="white-space:nowrap">
+					  <div class='Title2'><a href="http://starlying.spaces.live.com/blog/?&_c02_owner=1" class="AppLink" alt="查看网络日志的详细信息">网络日志</a></div>
+					</div></td>
+				</tr>
+			  </table>
+			</div>
+		  </div>
+		</div>
+		<div class="ContainerPadding">
+		  <style>
+.bvSection{display:none;}
+</style>
+		  <span id="BlogViewId">
+		  <div id='entrycns!62D76D06B0502522!120' class="fixedTable bvEntry" bv:cns="cns!62D76D06B0502522!120" bv:ca="true"  >
+			<div id="LastMDatecns!62D76D06B0502522!120">7月11日</div>
+			<h4 style="margin-bottom:0px" class="TextColor1" id='subjcns!62D76D06B0502522!120'>测试</h4>
+			<div id='msgcns!62D76D06B0502522!120'>
+			  <div>斯蒂芬疯掉撒</div>
+			</div>
+			<table cellspacing=0 border=0>
+			</table>
+			<div class="footerLinks">
+			  <ul>
+				<li>20:50 </li>
+				<li><nobr><a href='http://starlying.spaces.live.com/blog/cns!62D76D06B0502522!120.entry?_c11_blogpart_blogpart=blogview&_c=blogpart#postcns!62D76D06B0502522!120' onClick="Spaces.Blog.Activity.OpenSection('post','cns!62D76D06B0502522!120',null,null,true);return false;" title='单击为此项添加评论。'>添加评论</a></nobr> </li>
+				<li><nobr><a href='http://starlying.spaces.live.com/blog/cns!62D76D06B0502522!120.entry?_c11_blogpart_blogpart=blogview&_c=blogpart#permalink' onClick="Spaces.Blog.Activity.OpenSection('permalink','cns!62D76D06B0502522!120');return false;" title='单击以显示此项的固定链接。'>固定链接</a></nobr> </li>
+				<li><nobr><a href='http://starlying.spaces.live.com/blog/cns!62D76D06B0502522!120.entry?_c11_blogpart_blogpart=blogview&_c=blogpart#trackback' onClick="Spaces.Blog.Activity.OpenSection('trackback','cns!62D76D06B0502522!120');return false;" title='单击以显示此项的引用通告。'>引用通告 (1)</a></nobr> </li>
+				<li class="last"><nobr><a href="javascript:BlogIt('cns!62D76D06B0502522!120');" title="在您的共享空间中记录关于此项的网络日志。">记录它</a></nobr> </li>
+			  </ul>
+			</div>
+			<div class="footer"></div>
+			<div id='permalinkcns!62D76D06B0502522!120' class='bvSection ContainerBorder SubContainer'>
+			  <div class="ContainerPadding TitleBar">
+				<h5>固定链接</h5>
+				<span class="ControlBox"><a href="#" onClick="Spaces.Blog.Activity.Close('permalink','cns!62D76D06B0502522!120');; return false;" title="单击隐藏此项的固定链接。"><img class="HoverButton" alt="单击隐藏此项的固定链接。" src="http://shared.live.com/7QDBkvCA1-AiK-!Sy6rgQg/PersonalSpaceDkBlu/hig/img/glyph/close_rest_~ContainerHeaderTextLuminance~.gif" hb:hoversrc="http://shared.live.com/7QDBkvCA1-AiK-!Sy6rgQg/PersonalSpaceDkBlu/hig/img/glyph/close_hover_~ContainerHeaderTextLuminance~.gif"></a></span></div>
+			  <div class="Content" ><span class='bvwordwrap'><a href='http://starlying.spaces.live.com/blog/cns!62D76D06B0502522!120.entry'>http://starlying.spaces.live.com/blog/cns!62D76D06B0502522!120.entry</a></span></div>
+			</div>
+			<div class="bvSection ContainerBorder BlogCommentPane SubContainer" id="commentcns!62D76D06B0502522!120" ></div>
+			<div class='bvSection ContainerBorder BlogCommentPane SubContainer' id='postcns!62D76D06B0502522!120'>
+			  <div class="ContainerPadding TitleBar">
+				<h5>添加评论</h5>
+				<span class="ControlBox"><a href="#" onClick="Spaces.Blog.Activity.Close('post','cns!62D76D06B0502522!120');; return false;" title="单击隐藏此项的评论。"><img class="HoverButton" alt="单击隐藏此项的评论。" src="http://shared.live.com/7QDBkvCA1-AiK-!Sy6rgQg/PersonalSpaceDkBlu/hig/img/glyph/close_rest_~ContainerHeaderTextLuminance~.gif" hb:hoversrc="http://shared.live.com/7QDBkvCA1-AiK-!Sy6rgQg/PersonalSpaceDkBlu/hig/img/glyph/close_hover_~ContainerHeaderTextLuminance~.gif"></a></span></div>
+			  <div class="Content" style="padding:0px" ><span id='postcommentseccns!62D76D06B0502522!120'></span></div>
+			</div>
+			<div id='trackbackcns!62D76D06B0502522!120' class='bvSection ContainerBorder SubContainer'></div>
+		  </div>
+		  <div id='entrycns!62D76D06B0502522!118' class="fixedTable bvEntry" bv:cns="cns!62D76D06B0502522!118" bv:ca="true"  >
+			<h4 style="margin-bottom:0px" class="TextColor1" id='subjcns!62D76D06B0502522!118'>应用Trackback</h4>
+			<div id='msgcns!62D76D06B0502522!118'>
+			  <div><br>
+				<table cellspacing=0 cellpadding=0 width="95%" align=center>
+				  <tbody>
+					<tr>
+					  <td></td>
+					  <td><span><span>生成栏目</span></span> </td>
+					  <td></td>
+					</tr>
+				  </tbody>
+				</table>
+				<table cellspacing=0 cellpadding=0 width="95%" align=center>
+				  <tbody>
+					<tr>
+					  <td></td>
+					  <td><table cellpadding=3 width="95%" align=center>
+						  <tbody>
+							<tr>
+							  <td align=middle height=350><span>栏目生成中...，需生成的栏目数为 <b>855</b> ，已生成的栏目数为 <b>449</b> ，<a style="text-decoration:underline" href="http://starlying.spaces.msn.com/mmm2006-06-24_19.45/background_process.aspx?PublishmentSystemID=1&amp;CreateChannels=True&amp;NodeIDToCreate=515&amp;Stop=True"><font color="#0000ff">暂停</font></a><br>
+								<br>
+								当前生成的栏目名称：<a style="text-decoration:underline" href="http://210.192.98.195/Web/ChannelDir/23514.aspx"><b><font color="#0000ff">活 动</font><b></a><br>
+								<br>
+								<br>
+								<div style="border-right:#f7d4d4 1px solid;border-top:#f7d4d4 1px solid;font-size:5px;border-left:#f7d4d4 1px solid;width:200px;border-bottom:#f7d4d4 1px solid;height:10px" align=left>
+								  <div style="background:#4dadf4;width:105px;height:10px"><font color="#0000ff"></font></div>
+								</div>
+								52%</span><br>
+								</b></b></td>
+							</tr>
+						  </tbody>
+						</table></td>
+					  <td></td>
+					</tr>
+				  </tbody>
+				</table>
+				<table cellspacing=0 cellpadding=0 width="95%" align=center>
+				  <tbody>
+					<tr>
+					  <td></td>
+					  <td> </td>
+					  <td></td>
+					</tr>
+				  </tbody>
+				</table>
+			  </div>
+			</div>
+			<table cellspacing=0 border=0>
+			</table>
+			<div class="footerLinks">
+			  <ul>
+				<li>20:36 </li>
+				<li><nobr><a href='http://starlying.spaces.live.com/blog/cns!62D76D06B0502522!118.entry?_c11_blogpart_blogpart=blogview&_c=blogpart#postcns!62D76D06B0502522!118' onClick="Spaces.Blog.Activity.OpenSection('post','cns!62D76D06B0502522!118',null,null,true);return false;" title='单击为此项添加评论。'>添加评论</a></nobr> </li>
+				<li><nobr><a href='http://starlying.spaces.live.com/blog/cns!62D76D06B0502522!118.entry?_c11_blogpart_blogpart=blogview&_c=blogpart#permalink' onClick="Spaces.Blog.Activity.OpenSection('permalink','cns!62D76D06B0502522!118');return false;" title='单击以显示此项的固定链接。'>固定链接</a></nobr> </li>
+				<li><nobr><a href='http://starlying.spaces.live.com/blog/cns!62D76D06B0502522!118.entry?_c11_blogpart_blogpart=blogview&_c=blogpart#trackback' onClick="Spaces.Blog.Activity.OpenSection('trackback','cns!62D76D06B0502522!118');return false;" title='单击以显示此项的引用通告。'>引用通告 (0)</a></nobr> </li>
+				<li class="last"><nobr><a href="javascript:BlogIt('cns!62D76D06B0502522!118');" title="在您的共享空间中记录关于此项的网络日志。">记录它</a></nobr> </li>
+			  </ul>
+			</div>
+			<div class="footer"></div>
+			<div id='permalinkcns!62D76D06B0502522!118' class='bvSection ContainerBorder SubContainer'>
+			  <div class="ContainerPadding TitleBar">
+				<h5>固定链接</h5>
+				<span class="ControlBox"><a href="#" onClick="Spaces.Blog.Activity.Close('permalink','cns!62D76D06B0502522!118');; return false;" title="单击隐藏此项的固定链接。"><img class="HoverButton" alt="单击隐藏此项的固定链接。" src="http://shared.live.com/7QDBkvCA1-AiK-!Sy6rgQg/PersonalSpaceDkBlu/hig/img/glyph/close_rest_~ContainerHeaderTextLuminance~.gif" hb:hoversrc="http://shared.live.com/7QDBkvCA1-AiK-!Sy6rgQg/PersonalSpaceDkBlu/hig/img/glyph/close_hover_~ContainerHeaderTextLuminance~.gif"></a></span></div>
+			  <div class="Content" ><span class='bvwordwrap'><a href='http://starlying.spaces.live.com/blog/cns!62D76D06B0502522!118.entry'>http://starlying.spaces.live.com/blog/cns!62D76D06B0502522!118.entry</a></span></div>
+			</div>
+			<div class="bvSection ContainerBorder BlogCommentPane SubContainer" id="commentcns!62D76D06B0502522!118" ></div>
+			<div class='bvSection ContainerBorder BlogCommentPane SubContainer' id='postcns!62D76D06B0502522!118'>
+			  <div class="ContainerPadding TitleBar">
+				<h5>添加评论</h5>
+				<span class="ControlBox"><a href="#" onClick="Spaces.Blog.Activity.Close('post','cns!62D76D06B0502522!118');; return false;" title="单击隐藏此项的评论。"><img class="HoverButton" alt="单击隐藏此项的评论。" src="http://shared.live.com/7QDBkvCA1-AiK-!Sy6rgQg/PersonalSpaceDkBlu/hig/img/glyph/close_rest_~ContainerHeaderTextLuminance~.gif" hb:hoversrc="http://shared.live.com/7QDBkvCA1-AiK-!Sy6rgQg/PersonalSpaceDkBlu/hig/img/glyph/close_hover_~ContainerHeaderTextLuminance~.gif"></a></span></div>
+			  <div class="Content" style="padding:0px" ><span id='postcommentseccns!62D76D06B0502522!118'></span></div>
+			</div>
+			<div id='trackbackcns!62D76D06B0502522!118' class='bvSection ContainerBorder SubContainer'></div>
+		  </div>
+		  <div id='entrycns!62D76D06B0502522!112' class="fixedTable bvEntry" bv:cns="cns!62D76D06B0502522!112" bv:ca="true"  >
+			<div id="LastMDatecns!62D76D06B0502522!112">6月24日</div>
+			<h4 style="margin-bottom:0px" class="TextColor1" id='subjcns!62D76D06B0502522!112'>创建您喜欢的网络日志列表</h4>
+			<div id='msgcns!62D76D06B0502522!112'>
+			  <div>
+				<li>四年一次的足球盛会，将点燃你沸腾的血液，来吧，我们需要你的呐喊！众多球迷将在<a href="http://msnsport.spaces.msn.com/">MSN球迷俱乐部</a>等待与您一起见证这段历史的辉煌
+				<li>觉得创建一个自己的个性共享空间太难？没关系,<a href="http://spaces.msn.com/gb2312/Blog/cns!1pj3y6bRc9KnqfIBgeQI_-sA!7314.entry">共享空间学习三部曲-- Flash完全图解教程</a> 告诉您该怎么做。
+				<li>如果您已经熟悉共享空间的基本操作，单击 <a href="http://spaces.msn.com/Spacetips">此处</a> 查看更多进阶技巧。</li>
+			  </div>
+			</div>
+			<table cellspacing=0 border=0>
+			</table>
+			<div class="footerLinks">
+			  <ul>
+				<li>18:41 </li>
+				<li><nobr><a href='http://starlying.spaces.live.com/blog/cns!62D76D06B0502522!112.entry?_c11_blogpart_blogpart=blogview&_c=blogpart#postcns!62D76D06B0502522!112' onClick="Spaces.Blog.Activity.OpenSection('post','cns!62D76D06B0502522!112',null,null,true);return false;" title='单击为此项添加评论。'>添加评论</a></nobr> </li>
+				<li><nobr><a href='http://starlying.spaces.live.com/blog/cns!62D76D06B0502522!112.entry?_c11_blogpart_blogpart=blogview&_c=blogpart#permalink' onClick="Spaces.Blog.Activity.OpenSection('permalink','cns!62D76D06B0502522!112');return false;" title='单击以显示此项的固定链接。'>固定链接</a></nobr> </li>
+				<li><nobr><a href='http://starlying.spaces.live.com/blog/cns!62D76D06B0502522!112.entry?_c11_blogpart_blogpart=blogview&_c=blogpart#trackback' onClick="Spaces.Blog.Activity.OpenSection('trackback','cns!62D76D06B0502522!112');return false;" title='单击以显示此项的引用通告。'>引用通告 (1)</a></nobr> </li>
+				<li class="last"><nobr><a href="javascript:BlogIt('cns!62D76D06B0502522!112');" title="在您的共享空间中记录关于此项的网络日志。">记录它</a></nobr> </li>
+			  </ul>
+			</div>
+			<div class="footer"></div>
+			<div id='permalinkcns!62D76D06B0502522!112' class='bvSection ContainerBorder SubContainer'>
+			  <div class="ContainerPadding TitleBar">
+				<h5>固定链接</h5>
+				<span class="ControlBox"><a href="#" onClick="Spaces.Blog.Activity.Close('permalink','cns!62D76D06B0502522!112');; return false;" title="单击隐藏此项的固定链接。"><img class="HoverButton" alt="单击隐藏此项的固定链接。" src="http://shared.live.com/7QDBkvCA1-AiK-!Sy6rgQg/PersonalSpaceDkBlu/hig/img/glyph/close_rest_~ContainerHeaderTextLuminance~.gif" hb:hoversrc="http://shared.live.com/7QDBkvCA1-AiK-!Sy6rgQg/PersonalSpaceDkBlu/hig/img/glyph/close_hover_~ContainerHeaderTextLuminance~.gif"></a></span></div>
+			  <div class="Content" ><span class='bvwordwrap'><a href='http://starlying.spaces.live.com/blog/cns!62D76D06B0502522!112.entry'>http://starlying.spaces.live.com/blog/cns!62D76D06B0502522!112.entry</a></span></div>
+			</div>
+			<div class="bvSection ContainerBorder BlogCommentPane SubContainer" id="commentcns!62D76D06B0502522!112" ></div>
+			<div class='bvSection ContainerBorder BlogCommentPane SubContainer' id='postcns!62D76D06B0502522!112'>
+			  <div class="ContainerPadding TitleBar">
+				<h5>添加评论</h5>
+				<span class="ControlBox"><a href="#" onClick="Spaces.Blog.Activity.Close('post','cns!62D76D06B0502522!112');; return false;" title="单击隐藏此项的评论。"><img class="HoverButton" alt="单击隐藏此项的评论。" src="http://shared.live.com/7QDBkvCA1-AiK-!Sy6rgQg/PersonalSpaceDkBlu/hig/img/glyph/close_rest_~ContainerHeaderTextLuminance~.gif" hb:hoversrc="http://shared.live.com/7QDBkvCA1-AiK-!Sy6rgQg/PersonalSpaceDkBlu/hig/img/glyph/close_hover_~ContainerHeaderTextLuminance~.gif"></a></span></div>
+			  <div class="Content" style="padding:0px" ><span id='postcommentseccns!62D76D06B0502522!112'></span></div>
+			</div>
+			<div id='trackbackcns!62D76D06B0502522!112' class='bvSection ContainerBorder SubContainer'></div>
+		  </div>
+		  <div id='entrycns!62D76D06B0502522!111' class="fixedTable bvEntry" bv:cns="cns!62D76D06B0502522!111" bv:ca="true"  >
+			<h4 style="margin-bottom:0px" class="TextColor1" id='subjcns!62D76D06B0502522!111'>标题</h4>
+			<div id='msgcns!62D76D06B0502522!111'>
+			  <div>内容内容内容内容</div>
+			</div>
+			<table cellspacing=0 border=0>
+			</table>
+			<div class="footerLinks">
+			  <ul>
+				<li>18:39 </li>
+				<li><nobr><a href='http://starlying.spaces.live.com/blog/cns!62D76D06B0502522!111.entry?_c11_blogpart_blogpart=blogview&_c=blogpart#postcns!62D76D06B0502522!111' onClick="Spaces.Blog.Activity.OpenSection('post','cns!62D76D06B0502522!111',null,null,true);return false;" title='单击为此项添加评论。'>添加评论</a></nobr> </li>
+				<li><nobr><a href='http://starlying.spaces.live.com/blog/cns!62D76D06B0502522!111.entry?_c11_blogpart_blogpart=blogview&_c=blogpart#permalink' onClick="Spaces.Blog.Activity.OpenSection('permalink','cns!62D76D06B0502522!111');return false;" title='单击以显示此项的固定链接。'>固定链接</a></nobr> </li>
+				<li><nobr><a href='http://starlying.spaces.live.com/blog/cns!62D76D06B0502522!111.entry?_c11_blogpart_blogpart=blogview&_c=blogpart#trackback' onClick="Spaces.Blog.Activity.OpenSection('trackback','cns!62D76D06B0502522!111');return false;" title='单击以显示此项的引用通告。'>引用通告 (0)</a></nobr> </li>
+				<li class="last"><nobr><a href="javascript:BlogIt('cns!62D76D06B0502522!111');" title="在您的共享空间中记录关于此项的网络日志。">记录它</a></nobr> </li>
+			  </ul>
+			</div>
+			<div class="footer"></div>
+			<div id='permalinkcns!62D76D06B0502522!111' class='bvSection ContainerBorder SubContainer'>
+			  <div class="ContainerPadding TitleBar">
+				<h5>固定链接</h5>
+				<span class="ControlBox"><a href="#" onClick="Spaces.Blog.Activity.Close('permalink','cns!62D76D06B0502522!111');; return false;" title="单击隐藏此项的固定链接。"><img class="HoverButton" alt="单击隐藏此项的固定链接。" src="http://shared.live.com/7QDBkvCA1-AiK-!Sy6rgQg/PersonalSpaceDkBlu/hig/img/glyph/close_rest_~ContainerHeaderTextLuminance~.gif" hb:hoversrc="http://shared.live.com/7QDBkvCA1-AiK-!Sy6rgQg/PersonalSpaceDkBlu/hig/img/glyph/close_hover_~ContainerHeaderTextLuminance~.gif"></a></span></div>
+			  <div class="Content" ><span class='bvwordwrap'><a href='http://starlying.spaces.live.com/blog/cns!62D76D06B0502522!111.entry'>http://starlying.spaces.live.com/blog/cns!62D76D06B0502522!111.entry</a></span></div>
+			</div>
+			<div class="bvSection ContainerBorder BlogCommentPane SubContainer" id="commentcns!62D76D06B0502522!111" ></div>
+			<div class='bvSection ContainerBorder BlogCommentPane SubContainer' id='postcns!62D76D06B0502522!111'>
+			  <div class="ContainerPadding TitleBar">
+				<h5>添加评论</h5>
+				<span class="ControlBox"><a href="#" onClick="Spaces.Blog.Activity.Close('post','cns!62D76D06B0502522!111');; return false;" title="单击隐藏此项的评论。"><img class="HoverButton" alt="单击隐藏此项的评论。" src="http://shared.live.com/7QDBkvCA1-AiK-!Sy6rgQg/PersonalSpaceDkBlu/hig/img/glyph/close_rest_~ContainerHeaderTextLuminance~.gif" hb:hoversrc="http://shared.live.com/7QDBkvCA1-AiK-!Sy6rgQg/PersonalSpaceDkBlu/hig/img/glyph/close_hover_~ContainerHeaderTextLuminance~.gif"></a></span></div>
+			  <div class="Content" style="padding:0px" ><span id='postcommentseccns!62D76D06B0502522!111'></span></div>
+			</div>
+			<div id='trackbackcns!62D76D06B0502522!111' class='bvSection ContainerBorder SubContainer'></div>
+		  </div>
+		  <div style="height:10px">&nbsp;</div>
+		  </span>
+		</div>
+	  </div>
+	</div>
+	<div class="separator"></div></td>
+  <td id="SupplementalE" class="TopToBottom" isTarget="true"><div id="PhotoAlbum" MultiInstance="False" class="FullRegionWidth" Placement="Anywhere" Movable="True">
+	  <div class="ContainerMovable spDefaultFrame SPTransparency">
+		<div class="sppPartTitle">
+		  <div class="partHeader">
+			<div class="ContainerHeader">
+			  <table style="table-layout:fixed; width:100%" cellpadding="0" cellspacing="0">
+				<tr>
+				  <td width="100%"><div class='ellipse Title partDetail' style="white-space:nowrap">
+					  <div class='Title2'><a href="http://starlying.spaces.live.com/?_c11_PhotoAlbum_spaHandler=TWljcm9zb2Z0LlNwYWNlcy5XZWIuUGFydHMuUGhvdG9BbGJ1bS5GdWxsTW9kZUNvbnRyb2xsZXI%24&_c11_PhotoAlbum_spaFolderID=&_c11_PhotoAlbum_startingImageIndex=&_c11_PhotoAlbum_commentsExpand=&_c11_PhotoAlbum_addCommentExpand=&_c11_PhotoAlbum_addCommentFocus=&_c=PhotoAlbum" class="AppLink" alt="">照片</a></div>
+					</div></td>
+				</tr>
+			  </table>
+			</div>
+		  </div>
+		</div>
+		<div class="ContainerPadding">
+		  <div  class="viewActive"><span>
+			<table Class="opaquePartMain" border="0" cellpadding="0" cellspacing="0" width="100%" style="position:relative">
+			  <tr>
+				<td><div class="PhotosViewer" style="position:relative; width:100%">
+					<table width=100% height=300>
+					  <tr>
+						<td align=center><img src="http://shared.live.com/7QDBkvCA1-AiK-!Sy6rgQg/PersonalSpaceDkBlu/hig/img/progress_loading.gif" class="SN_LOADING_IMG"><span class="SN_LOADING_TXT">正在加载...</span></td>
+					  </tr>
+					</table>
+				  </div></td>
+			  </tr>
+			</table>
+			</span></div>
+		</div>
+	  </div>
+	</div>
+	<div class="separator"></div>
+	<div id="CategoryPart" MultiInstance="False" class="Normal" Placement="Anywhere" Movable="True">
+	  <div class="ContainerMovable spDefaultFrame SPTransparency">
+		<div class="sppPartTitle">
+		  <div class="partHeader">
+			<div class="ContainerHeader">
+			  <table style="table-layout:fixed; width:100%" cellpadding="0" cellspacing="0">
+				<tr>
+				  <td width="100%"><div class='ellipse Title partDetail' style="white-space:nowrap">
+					  <div class='Title2'>类别</div>
+					</div></td>
+				</tr>
+			  </table>
+			</div>
+		  </div>
+		</div>
+		<div class="ContainerPadding">
+		  <ul class='blogCategories'>
+			没有使用中的类别。
+		  </ul>
+		</div>
+	  </div>
+	</div>
+	<div class="separator"></div>
+	<div id="ArchivePart" MultiInstance="False" class="Normal" Placement="Anywhere" Movable="True">
+	  <div class="ContainerMovable spDefaultFrame SPTransparency">
+		<div class="sppPartTitle">
+		  <div class="partHeader">
+			<div class="ContainerHeader">
+			  <table style="table-layout:fixed; width:100%" cellpadding="0" cellspacing="0">
+				<tr>
+				  <td width="100%"><div class='ellipse Title partDetail' style="white-space:nowrap">
+					  <div class='Title2'>存档</div>
+					</div></td>
+				</tr>
+			  </table>
+			</div>
+		  </div>
+		</div>
+		<div class="ContainerPadding">
+		  <ul class='blogArchives'>
+			<li class="bvLinkList"><a href="http://starlying.spaces.live.com/?_c11_blogpart_blogpart=blogview&_c=blogpart&partqs=amonth%3d8%26ayear%3d2006" title='单击查看在此期间发布的所有项。'>2006年8月</a></li>
+			<li class="bvLinkList"><a href="http://starlying.spaces.live.com/?_c11_blogpart_blogpart=blogview&_c=blogpart&partqs=amonth%3d7%26ayear%3d2006" title='单击查看在此期间发布的所有项。'>2006年7月</a></li>
+			<li class="bvLinkList"><a href="http://starlying.spaces.live.com/?_c11_blogpart_blogpart=blogview&_c=blogpart&partqs=amonth%3d6%26ayear%3d2006" title='单击查看在此期间发布的所有项。'>2006年6月</a></li>
+			<li class="bvLinkList"><a href="http://starlying.spaces.live.com/?_c11_blogpart_blogpart=blogview&_c=blogpart&partqs=amonth%3d5%26ayear%3d2006" title='单击查看在此期间发布的所有项。'>2006年5月</a></li>
+			<li class="bvLinkList"><a href="http://starlying.spaces.live.com/?_c11_blogpart_blogpart=blogview&_c=blogpart&partqs=amonth%3d4%26ayear%3d2006" title='单击查看在此期间发布的所有项。'>2006年4月</a></li>
+		  </ul>
+		</div>
+	  </div>
+	</div>
+	<div class="separator"></div>
+	<div id="RecentUpdatedBlogPart" MultiInstance="False" class="Normal" Placement="Anywhere" Movable="True">
+	  <div class="ContainerMovable spDefaultFrame SPTransparency">
+		<div class="sppPartTitle">
+		  <div class="partHeader">
+			<div class="ContainerHeader">
+			  <table style="table-layout:fixed; width:100%" cellpadding="0" cellspacing="0">
+				<tr>
+				  <td width="100%"><div class='ellipse Title partDetail' style="white-space:nowrap">
+					  <div class='Title2'>更新的共享空间</div>
+					</div></td>
+				  <td id="headerid_RecentUpdatedBlogPart_settings"></td>
+				  <td id="headerid_RecentUpdatedBlogPart_add"></td>
+				</tr>
+			  </table>
+			</div>
+		  </div>
+		</div>
+		<div class="ContainerPadding">
+		  <div>
+			<div class="GadgetPart">
+			  <table width=100% height=100%>
+				<tr>
+				  <td align=center><img src="http://shared.live.com/7QDBkvCA1-AiK-!Sy6rgQg/PersonalSpaceDkBlu/hig/img/progress_loading.gif" style="vertical-align:middle"><span class="vertical-align:middle;margin-left:5px">正在加载...</span></td>
+				</tr>
+			  </table>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<div class="separator"></div>
+	<div id="MemberProfileTile" MultiInstance="False" class="Normal" Placement="Anywhere" Movable="True">
+	  <div class="ContainerMovable spDefaultFrame SPTransparency">
+		<div class="sppPartTitle">
+		  <div class="partHeader">
+			<div class="ContainerHeader">
+			  <table style="table-layout:fixed; width:100%" cellpadding="0" cellspacing="0">
+				<tr>
+				  <td width="100%"><div class='ellipse Title partDetail' style="white-space:nowrap">
+					  <div class='Title2'><a href="http://starlying.spaces.live.com/PersonalSpace.aspx?_c01_memberprofiletile=showdefault&_c=memberprofiletile&_c02_owner=1" class="AppLink" alt="查看档案文件的详细信息">档案文件</a></div>
+					</div></td>
+				</tr>
+			  </table>
+			</div>
+		  </div>
+		</div>
+		<div>
+		  <link rel="stylesheet" type="text/css" href="http://sc.services.spaces.live.com/10.08.3207.0001/Web/css/Profiles.css" />
+		  <table class="fixedTable" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+			  <td width="100%"><div class="ContainerPadding">
+				  <div class="profileTileContainer">
+					<div id="ProfileContactControl" contactparams:contactsize="WLThumb1LineXLarge" contactparams:cid="7122281211205002530" contactparams:publicdisplayname="starlying" contactparams:publicglobalnickname="StarShouldBeLying" contactparams:photopreauthurl="" contactparams:haspending="false" contactparams:genmoddate="new Date(Date.UTC(2005,11,26,21,26,50,57));" contactparams:showdisplayname="false" contactparams:expressionpsm=""></div>
+				  </div>
+				  <table border="0" cellspacing="0" cellpadding="0" width="100%" class="fixedTable">
+					<tr>
+					  <td class="profileTileName">姓名: </td>
+					  <td class="profileTileValue profileWrapText"><div class="profileWrapText">starlying</div></td>
+					</tr>
+					<tr>
+					  <td class="profileTileName">兴趣:</td>
+					  <td></td>
+					</tr>
+					<tr>
+					  <td colspan="2" class="profileTileValue profileWrapText"><div class="profileWrapText"><span class="profTagSrch"><nobr><a href="http://spaces.live.com/default.aspx?page=searchresults&ss=true&tp=2&qn=lie&pg=0&sc=2" title="lie">lie</a> </nobr></span></div></td>
+					</tr>
+				  </table>
+				</div></td>
+			</tr>
+		  </table>
+		</div>
+	  </div>
+	</div>
+	<div class="separator"></div>
+	<div id="Links:107" MultiInstance="True" class="Normal" Placement="Anywhere" Movable="True">
+	  <div class="ContainerMovable spDefaultFrame SPTransparency">
+		<div class="sppPartTitle">
+		  <div class="partHeader">
+			<div class="ContainerHeader">
+			  <table style="table-layout:fixed; width:100%" cellpadding="0" cellspacing="0">
+				<tr>
+				  <td width="100%"><div class='ellipse Title partDetail' style="white-space:nowrap">
+					  <div class='Title2'><a href="http://starlying.spaces.live.com/Lists/cns!62D76D06B0502522!107" class="AppLink" alt="">自定义列表</a></div>
+					</div></td>
+				</tr>
+			  </table>
+			</div>
+		  </div>
+		</div>
+		<div class="ContainerPadding">
+		  <div id="ListErrorArea" style="display:none"></div>
+		  <div id="ctl09_ctl00_partPanel" class="spList">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%" >
+			  <tr>
+				<td><span id="ActionUrl:ctl09_ctl00_SpaceListObject" url="http://starlying.spaces.live.com/?_c=Links:107"></span>
+				  <table class="fixedTable" id="ctl09_ctl00_SpaceListObject" width="100%" border="0" cellpadding="0" cellspacing="0" nolist="noItemscns!62D76D06B0502522!107" style="display:none">
+				  </table>
+				  <div id="noItemscns!62D76D06B0502522!107" style="display:block">尚未添加列表项。</div></td>
+			  </tr>
+			</table>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<div class="separator"></div></td>
+</tr>
+</table>
+</asp:content>

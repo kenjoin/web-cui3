@@ -1,0 +1,1 @@
+﻿<%@ Page Language="c#" Inherits="SiteServer.Ask.Pages.Ajax.Config" Trace="False" %>

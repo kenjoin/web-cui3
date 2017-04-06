@@ -1,0 +1,1 @@
+<%@ Page trace="false" Inherits="SiteServer.Space.Space.Pages.ValidateCode" %>

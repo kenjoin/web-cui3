@@ -1,0 +1,162 @@
+/* CONTEXT WIDGET */
+
+.contextInfo { border:1px solid black; border-left: 0; border-top: 1px solid #e3e3e3; border-right: 1px solid #e3e3e3; border-bottom: 1px solid #e3e3e3; background-color: #f3f3f3; padding-left:5px; }
+.contextInfoInner { height:101px; width:57px; padding: 0; color: #c3bebd; }
+.contextInfoInner .photosNum { padding-top:24px; font-weight: bold; font-size: 17px; line-height: 10px; }
+.contextInfoInner .photosText { font-size: 12px; }
+.contextInfoInner .showLink { padding-top:6px; font-size: 11px; line-height: 10px; }
+.contextInfoInner .showLink a:link { color: #c3bebd; text-decoration: underline; }
+.contextInfoInner .showLink a:visited { color: #c3bebd; text-decoration: underline; }
+.contextInfoInner .showLink a:hover { color: #ff0084; text-decoration: underline; background: inherit; }
+.contextInfoInner .showLink a:active { color: #ff0084; text-decoration: underline; background: inherit; }
+
+a.contextThumbLink:link { color: #0063DC; text-decoration: none; }
+a.contextThumbLink:visited { color: #2E67C7; text-decoration: none; }
+a.contextThumbLink:hover { color: #FFFFFF; text-decoration: none; background: inherit; }
+a.contextThumbLink:active { color: #FFFFFF; text-decoration: none; background: inherit; }
+
+.ContextTop { margin-top: 0px; margin-bottom: 20px; padding-right: 0px; color: #666666; }
+.ContextTop h3 { font-size: 14px; margin: 0 15px 0 2px; border:1px solid #f3f3f3; border-bottom:0px; padding: 3px 4px 4px 4px; width: 195px; }
+.ContextTop .Plain:link { color: #999999; }
+.ContextTop .Plain:visited { color: #999999; }
+.ContextTop .Plain:hover { color: #0063DC; background-color: #fff; }
+.ContextTop .Plain:active { color: #0063DC; background-color: #fff; }
+
+.ContextsOther { padding-right: 0px; margin-top: 20px; }
+.ContextsOther #other_contexts_p { font-size: 14px; color: #666666; margin-bottom:8px; }
+
+.contextThumbsRow span { padding: 0px; margin: 0px; }
+.contextThumbsRow img { margin-right: 1px; display:inline; border: 1px solid #eee; }
+.contextThumbsRow img.crap { margin: -1 0 0 0; display:inline; border: 0; }
+.contextThumbsRow img.nomore { border: 1px solid #eee;}
+
+.contextsTable { margin: 0 0 6px 0;} 
+.contextsTable .Plain:link { color: #999999; }
+.contextsTable .Plain:visited { color: #999999; }
+.contextsTable .Plain:hover { color: #0063DC; background-color: #fff; }
+.contextsTable .Plain:active { color: #0063DC; background-color: #fff; }
+
+h3.contextTitleOpen { font-size: 14px; margin: 0 15px 0 2px; border:1px solid #f3f3f3; border-bottom:0px; padding: 3px 4px 4px 4px; width: 195px; }
+h3.contextTitleClosed { font-size: 12px; margin: 1px 15px 0 2px; border:1px solid #f3f3f3; padding: 3px 4px 4px 4px; width: 195px; }
+
+.currentContextLink { font-weight:bold; text-decoration:none;}
+.currentContextLink:link { color: #0063DC; text-decoration:none; }
+.currentContextLink:visited { color: #0063DC; text-decoration:none; }
+.currentContextLink:hover { color: #0063DC; background: #ffffff; text-decoration:none; }
+.currentContextLink:active { color: #ff0084; background: #ffffff; text-decoration:none; }
+
+.contextThumbsMoverDiv { position:relative; width:400px; left:0px; height:80px}
+.contextThumbsMoverWrapperDiv { overflow:hidden; width:157px; position:relative; }
+
+.nextprev_contextThumbsArrowsDiv {height:11px;}
+.nextprev_contextThumbsArrowsDiv img {border:0; visibility:hidden;}
+.nextprev_contextThumbsArrowsDiv img.nextprev_view_page_img {visibility:visible;}
+
+
+.nextprev_contextThumbsDiv { margin: 0; background-color: #f3f3f3; border-left: 0; border-top: 1px solid #e3e3e3; border-right: 0; border-bottom: 1px solid #e3e3e3; padding: 10px 0 0 0; }
+
+.Stats { margin-left: -21px; line-height: 15px; color: #999999; list-style-type: circle; }
+
+/* Tags */
+
+td.RHS { padding: 25px 0 0 0; margin:0; }
+
+.RHS .LilIcon { padding-right: 0px; vertical-align:bottom }
+.RHS .Privacy { font-size: 11px; line-height: 15px; color: #999999; }
+.RHS .Privacy img { border: none; }
+.RHS ul { margin-bottom: 0; }
+.Widget { font-size: 11px; color: #666; padding: 2px; margin-bottom: 10px; }
+.Widget img { margin-right: 4px; float: left; }
+
+.globe {margin-right: 5px; text-decoration:none}
+.globe:link { text-decoration:none; }
+.globe:visited { text-decoration:none; }
+.globe:hover { background: inherit; text-decoration:none; }
+.globe:active { background: inherit; text-decoration:none; }
+
+.Stats { margin-left: -21px; font-size: 11px; line-height: 15px; color: #999999; list-style-type: circle; }
+
+#upload_form_container { display:none; margin-top:5px; background-color:#F5F5F5; padding:10px; }
+#upload_uploading_container { display:none; margin-top:5px; background-color:#F5F5F5; padding:10px; }
+
+/*
+#############################################
+sets mat
+*/
+
+.StreamView { margin-right:10px;}
+.Privacy {	MARGIN-TOP: 10px;	FONT-SIZE: 12px; line-height:22px;	MARGIN-BOTTOM: 2px;	WIDTH: 240px;}
+.Do {	MARGIN-TOP: 0px;	FONT-SIZE: 12px;line-height:22px;	MARGIN-BOTTOM: 0px;}
+.Activity {	MARGIN-TOP: 0px;	FONT-SIZE: 12px;	line-height:22px;MARGIN-BOTTOM: 3px;}
+
+.set_div {
+	text-align:left;
+	float:left;
+	position:relative;
+	margin:0;
+	border:0px solid black;
+	overflow:hidden;
+}
+
+.set_thumb_div, #one_set_primary_div {
+	margin:0;
+	margin-bottom:5px;
+	padding:7px 7px 11px 7px;
+	background:url(images/set_case.gif) no-repeat;
+	border:0px solid black;
+}
+
+.set_thumb_div img, #one_set_primary_div img {
+ 	display:block;
+	border:1px solid black;
+}
+
+.set_title_div {
+	font:13px arial, sans-serif;
+	overflow:hidden;
+	color: #0063DC;
+	font-weight:bold;
+	margin-top:5px;
+	margin-left:5px;
+	width: 105px;
+}
+
+.set_count_span {
+	font:11px arial, sans-serif;
+	font-weight:normal;
+	color: #9c9c9c;
+}
+
+
+.hoverclass123 {
+border:1px solid red;
+}
+
+.photolist img  { border:0px;}
+.photolist span { display:none;}
+.photolist a:hover { border:1px #FF0084 solid; padding:0;}
+.photolist a:hover img { border:0;}
+.photolist a:hover span { display:block; position:relative; background:url(../../pic/photos/date_bg.gif); font-size:11px; text-decoration:none; text-transform:uppercase; text-align:center; width:58px; vertical-align:middle; height:16px; line-height:16px; cursor:pointer;}
+.photolist a:hover > span { margin:-72px 0 0 3px; padding:2px 0 0; line-height:14px; height:14px;}
+			
+			
+/* Recent Activity */
+
+.RecentActivity { width: 100%; margin-top: 10px; margin-bottom: 5px; margin-left: 20px; }
+.RecentActivity tr { vertical-align: top; }
+.RecentActivity td {  }
+.RecentActivity .Object { padding-left: 10px; padding-top: 5px; padding-bottom: 10px; }
+.RecentActivity .Guts { width: 100%; border: none; }
+.Guts h2 { margin-bottom: 0px; font-weight: normal; }
+.Guts .Who { text-align: right; font-size: 11px; padding-right: 5px; vertical-align: middle; }
+
+.NewComments { width: 100%; margin-left: 10px; }
+.NewComments td { vertical-align: top; padding: 3px 3px 6px 3px; margin: 0px; background-image: none; font-size: 12px; }
+/* .NewComments img { margin-right: 10px; } */
+.NewComments .Icon { text-align: right; }
+.NewComments .Icon img { vertical-align: top; border: none; margin-right: 0px; margin-top: 8px; }
+.NewComments .YouSaid { font-style: italic; }
+.NewComments .YouSaidIcon { font-style: italic; text-align: right; }
+.NewComments .YouSaidIcon img { vertical-align: top; border: none; margin-right: 0px; margin-top: 8px; }
+.NewComments small { padding-left: 20px; }
+.HowMany { font: normal 12px Arial, Helvetica, sans-serif; margin-top: 0px; padding-left: 8px; }

@@ -1,0 +1,123 @@
+
+
+
+
+	<!-- 立即申请start-->
+	<LINK href="/templets/nettac/images/qqdj.css"
+		tppabs="http://www.rhidc.com.cn/templets/nettac/images/qqdj.css"
+		rel="stylesheet" media="screen">
+
+	<script type="text/javascript">
+		function showImg() {
+			document.getElementById("wxImg").style.display = 'block';
+		}
+		function hideImg() {
+			document.getElementById("wxImg").style.display = 'none';
+		}
+	</script>
+
+	<!--OA调用申请-->
+	<div class="sq_form" data="onlinetry">
+		<h4>
+			<a href="javascript:closeSQ_Form();" class="close" title="关闭"> <img
+						src="/templets/nettac/images/gb.gif"
+				tppabs="http://www.rhidc.com.cn/templets/nettac/images/gb.gif"
+				alt="关闭" /></a><span>客服中心</span>
+		</h4>
+
+		<div class="qqbk">
+			<div class="qqleftimg">销售部</div>
+			<ul>
+            
+            	<stl:contents channelIndex="l7_7_3">
+                <li>
+                    <a href="http://wpa.qq.com/msgrd?v=3&amp;uin={Content.qq}&amp;site=qq&amp;menu=yes" target="_blank">
+                    <img src="/templets/nettac/images/button_old_41.gif" alt="给我发消息" border="0">{Content.Title}</a>
+                </li>
+                </stl:contents>
+				
+			</ul>
+		</div>
+
+		
+
+		<h5>请联系销售客服告知售后问题处理人员联系方式</h5>
+		<H5>为避免丢失消息，请尽量添加客服人员为好友</H5>
+	</div>
+
+
+	<script type="text/javascript">
+		function closeSQ_Form() {
+			$(".sq_form").fadeOut();
+		}
+		var ONLINETRY = {
+			p_pname : $("#p_pname"),
+			p_pnames : $("#p_pnames"),
+			p_name : $("#p_name"),
+			p_tel : $("#p_tel"),
+			p_mail : $("#p_mail"),
+			p_city : $("#p_city"),
+			p_info : $("#p_info"),
+			p_xm : $("#p_xm"),
+			sq_form : $("div.sq_form[data='onlinetry']")
+		};
+		function tryOnLine(info) {
+			ONLINETRY.p_pnames.show();
+			$(".sq_form").hide();
+			ONLINETRY.sq_form.fadeIn();
+		};
+	</script>
+	<!--OA调用申请-->
+
+
+	<!-- 立即申请stop-->
+
+	<div style="height: 479px;" class="ritght-nav-bar">
+		<div class="rnb-inner">
+			<div class="chi-parent ic1">
+				<i class="ar1"></i> <span class="icons"></span>
+				<div class="kf-chi">
+					<span class="tits"><i></i>在线客服</span>
+					<ul id="service_qq">
+                    	<stl:contents channelIndex="l7_7_3">
+						<li>
+                            <a href="http://wpa.qq.com/msgrd?v=3&amp;uin={Content.qq}&amp;site=qq&amp;menu=yes" target="_blank">
+                            <img src="/templets/nettac/images/button_old_41.gif" alt="给我发消息" border="0">{Content.Title}</a>
+						</li>
+                        </stl:contents>
+					</ul>
+				</div>
+			</div>
+			<stl:contents channelIndex="l7_7_1" totalNum="3">            
+            <a class="chi-parent update1" target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin={Content.qq}&amp;site=qq&amp;menu=yes">
+			  <i class="ar2"></i>
+			  <span class="icons"></span>
+			  <span class="sm" style="top: 0px; overflow: hidden; width: 0px;">{Content.Title}</span>
+			</a>
+            </stl:contents>
+            <script>
+            	var as = $('.rnb-inner>a.update1');
+				
+				for(var i=0; i<as.length; i++){
+					if(i==0){
+						$(as[i]).prop('id','tool_icp').addClass('ic2');
+					}else if(i==1){
+						$(as[i]).prop('id','tool_working').addClass('ic4');
+					}else if(i==2){
+						$(as[i]).prop('id','tool_complain').addClass('ic5');
+					}
+				}
+            </script>
+            
+            <a class="chi-parent ic6" href="javascript:;"><i class="ar2"></i>
+				<span class="icons"></span>
+				<div class="sm">
+                     <stl:contents channelIndex="l7_7_2" totalNum="1">
+                        <stl:image alt="官方微信" height="148" width="148" src="{Content.ImageUrl}"></stl:image>
+                     </stl:contents>
+				</div> </a>
+		</div>
+	</div>
+
+
+

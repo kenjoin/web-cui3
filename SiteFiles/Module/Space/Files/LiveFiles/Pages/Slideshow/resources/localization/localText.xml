@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<localization>
+    <galleryMenus>
+        <menuitem event="MenuView" label="View" >
+            <menuitem event="MenuViewGallery" type="radio" label="Gallery" />
+            <menuitem event="MenuViewSlideshow" type="radio" label="Slideshow" />
+            <menuitem event="Separator" label="Separator" />
+            <menuitem event="MenuViewAbout" type="radio" label="About this Gallery" />
+        </menuitem>
+        <menuitem event="MenuFeedback" label="Feedback" >
+            <menuitem event="MenuFeedbackAddComment" label="Add Comment" />
+            <menuitem event="MenuFeedbackMarkFavorite" label="Mark As Favorite" />
+            <menuitem event="MenuFeedbackHideComments" label="Hide All Comments" />
+            <menuitem event="MenuFeedbackShowComments" label="Show All Comments" />
+            <menuitem event="Separator" label="Separator" />
+            <menuitem event="MenuFeedbackSendFeedback" label="Send Feedback..." />
+        </menuitem>
+        <menuitem event="MenuConnection" label="Connection" >
+            <menuitem event="MenuConnectionBroadband" type="radio" label="Broadband" />
+            <menuitem event="MenuConnectionDialup" type="radio" label="Dialup" />
+        </menuitem>
+    </galleryMenus>
+    <toolTips>
+        <toolTip item="SlideshowVCRNextTip" label="Next Image" />
+        <toolTip item="SlideshowVCRPrevTip" label="Previous Image" />
+        <toolTip item="SlideshowVCRPlayTip" label="Play Slideshow" />
+        <toolTip item="SlideshowVCRPauseTip" label="Pause Slideshow" />
+        <toolTip item="SlideshowViewGalleryTip" label="View Gallery" />
+        <toolTip item="SlideshowViewSlideshowTip" label="View Slideshow" />
+        <toolTip item="SlideshowOpenCommentTip" label="Add Comment" />
+        <toolTip item="SlideshowMarkFavoriteTip" label="Mark as Favorite" />
+        <toolTip item="ThumbnailNextPageTip" label="Next Page" />
+        <toolTip item="ThumbnailPrevPageTip" label="Previous Page" />
+        <toolTip item="ThumbnailLastPageTip" label="Last Page" />
+        <toolTip item="ThumbnailFirstPageTip" label="First Page" />
+        <toolTip item="SlideshowVideoPlayTip" label="Play Video" />
+        <toolTip item="SlideshowVideoPauseTip" label="Pause Video" />
+        <toolTip item="SlideshowVideoRewindTip" label="Rewind Video" />
+    </toolTips>
+</localization>

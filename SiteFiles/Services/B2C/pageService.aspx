@@ -1,0 +1,1 @@
+<%@ Page Language="c#" Inherits="SiteServer.B2C.Pages.Services.PageService" Trace="False" %>

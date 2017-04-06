@@ -1,0 +1,197 @@
+.feedTitle
+{
+	position: relative;
+	background: url(images/title-bg.gif) repeat-x 50% bottom;
+	height: 23px;
+	overflow: hidden;
+	padding-top: 0px;
+	margin-top:0px;
+}
+
+.feedTitle UL
+{
+	padding-bottom: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 0px;
+	margin-top:0px;
+	list-style-type: none;
+	padding-bottom: 0px;
+	margin: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+}
+.feedTitle LI
+{
+	padding-bottom: 0px;
+	margin: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	border-bottom: #bad0dd 1px solid;
+	text-align: center;
+	border-left: #bad0dd 1px solid;
+	line-height: 21px;
+	width: 58px;
+	display: block;
+	float: left;
+	height: 21px;
+	border-top: #bad0dd 1px solid;
+	margin-right: 10px;
+	border-right: #bad0dd 1px solid;
+}
+.feedTitle LI A
+{
+	width: 100%;
+	display: block;
+	height: 100%;
+	color: #666;
+	padding-top:4px;
+	text-decoration:none;
+}
+.feedTitle LI.on
+{
+	background: #fff;
+	border-bottom-width: 0px;
+	height: 22px;
+	font-weight: bold;
+}
+.feedTitle LI.on A
+{
+	cursor: default;
+}
+.feedTitle .option
+{
+	float: right;
+}
+.feedTitle .option A
+{
+	text-decoration:none;
+}
+
+.feedItem
+{
+	border-bottom: #e1eaf0 1px solid;
+	padding-bottom: 5px;
+	padding-left: 60px;
+	padding-right: 0px;
+	padding-top: 18px;
+}
+.feedItem IMG
+{
+	border-bottom: #ccc 1px solid;
+	border-left: #ccc 1px solid;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	background: #fff;
+	border-top: #ccc 1px solid;
+	border-right: #ccc 1px solid;
+	padding-top: 1px;
+}
+.feedAvatar
+{
+	float: left;
+	margin-left: -60px;
+	_display: inline;
+}
+.feedAvatar IMG
+{
+	width: 48px;
+	height: 48px;
+}
+.feedAvatar-s
+{
+	margin-top: -3px;
+	float: left;
+	margin-left: -36px;
+	_display: inline;
+}
+.feedAvatar-s .avatar-48
+{
+	width: 22px;
+	height: 22px;
+}
+.feedHead
+{
+	word-wrap: break-word;
+	margin-bottom: 7px;
+	color: #000;
+	font-size: 14px;
+	overflow: hidden;
+}
+.feedHead .time
+{
+	color: #868686;
+	font-size: 12px;
+}
+.feedBody
+{
+	margin-bottom: 7px;
+	color: #888;
+	font-size: 12px;
+}
+.feedFoot
+{
+	color: #888;
+}
+.feed-blog .i-feedIcon
+{
+	background-position: 0px 0px;
+}
+.feed-new-photo .feedPhoto IMG
+{
+	display: inline;
+	max-width: 200px;
+	float: left;
+	max-height: 200px;
+	margin-right: 12px;
+}
+.feed-new-photo .i-feedIcon
+{
+	background-position: -16px 0px;
+}
+.feed-forum .i-feedIcon
+{
+	background-position: 0px 0px;
+}
+.feed-add-app .feedAppImg
+{
+	margin: 5px 0px 0px 12px;
+	display: inline;
+	max-width: 200px;
+	float: left;
+	max-height: 200px;
+}
+.feed-add-app .feedAppImg IMG
+{
+	width: 130px;
+	height: 98px;
+}
+.feed-add-app .i-feedIcon
+{
+	background-position: -64px -32px;
+}
+.feedBody
+{
+	zoom: 1;
+}
+.feedItem
+{
+	zoom: 1;
+}
+.feedBody:after
+{
+	display: block;
+	height: 0px;
+	clear: both;
+	content: ' ';
+}
+.feedItem:after
+{
+	display: block;
+	height: 0px;
+	clear: both;
+	content: ' ';
+}

@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/LiveFiles/Themes/MasterPage/User/BaseMasterPage.master" %>
+<%@ Register TagPrefix="bairong" Namespace="BaiRong.Controls" Assembly="BaiRong.Controls" %>
+<%@ Register TagPrefix="user" Namespace="UserCenter.Controls" Assembly="UserCenter.Pages" %>
+<%@ Register TagPrefix="space" Namespace="SiteServer.Space.Controls" Assembly="SiteServer.Space" %>
+
+<asp:content contentplaceholderid="GlobalScriptHolder" runat="server">
+  <asp:contentplaceholder id="GlobalScriptHolder" runat="server"></asp:contentplaceholder>
+</asp:content>
+<asp:content contentplaceholderid="ScriptHolder" runat="server">
+  <asp:contentplaceholder id="ScriptHolder" runat="server"></asp:contentplaceholder>
+</asp:content>
+<asp:content contentplaceholderid="StyleHolder" runat="server">
+  <asp:contentplaceholder id="StyleHolder" runat="server"></asp:contentplaceholder>
+</asp:content>
+<asp:content contentplaceholderid="TemplateHolder" runat="server">
+  <DIV id="articleContent">
+    <DIV id="articleInnerContent"><A name="entry"></A>
+      <DIV id="contentLabelBox">
+        <DIV id="innerContentLabelBox">
+			<space:SubNav id="SubNav" runat="server" />
+		</DIV>
+        <DIV class="contentLabel-new" id="newEntryOpr"></DIV>
+        <DIV class="clear"></DIV>
+      </DIV>
+      <DIV class="content-top"></DIV>
+      <DIV id="mainContent">
+        <DIV id="mainInnerContent">
+          <asp:contentplaceholder id="ContentHolder" runat="server"></asp:contentplaceholder>
+        </DIV>
+      </DIV>
+      <DIV id="sidebar">
+        <DIV id="innerSidebar">
+          <asp:contentplaceholder id="NavigationHolder" runat="server"></asp:contentplaceholder>
+        </DIV>
+      </DIV>
+      <DIV class="clear"></DIV>
+      <DIV class="content-bottom"></DIV>
+      <DIV id="tipBoxDiv"></DIV>
+    </DIV>
+  </DIV>
+</asp:content>

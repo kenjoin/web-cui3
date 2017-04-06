@@ -1,0 +1,27 @@
+@charset "utf-8";
+em, strong { font-style:normal; }
+.t_l, .t_c, .t_r, .m_l, .m_r, .b_l, .b_c, .b_r { background:#000; opacity:0.2; filter:alpha(opacity=20); overflow:hidden; }
+.t_l, .t_r, .b_l, .b_r { height:8px; width:8px; }
+.t_c, .b_c { height:8px; }
+.m_l, .m_r { width:8px; }
+.t_l { -moz-border-radius:8px 0 0 0; }
+.t_r { -moz-border-radius:0 8px 0 0; }
+.b_l { -moz-border-radius:0 0 0 8px; }
+.b_r { -moz-border-radius:0 0 8px 0; }
+.m_c { background:#FFFFFF; }
+.m_c .tb { margin:0 0 10px; padding:0 10px; }
+.m_c .c { padding:0 10px 10px; }
+.m_c .o { background: #F2F2F2; border-top:1px solid #CCCCCC; height:26px; padding:8px 10px; text-align:right; }
+.m_c .el { width:420px; }
+.m_c .el li { border:medium none; padding:0; }
+.flb { height:20px; line-height:20px; padding:10px 10px 8px; }
+.flb em { color:#336699; float:left; font-size:14px; font-weight:700; }
+.flb em a { text-decoration:none; }
+.hd #sj1 { }
+.hd #sj1 #sj_1 { height: 31px; font-size: 14px; line-height: 31px; color: #000000; font-weight: bold; }
+.hd #sj1 #sj_1 #s_bj { background-image: url(../images/qweqw_05.png); background-repeat: repeat-x; height: 31px; padding-left: 9px; color:#333; }
+.hd #sj1 #sj_2 { padding-top:10px; min-height:128px; height:auto !important; height:128px; overflow:visible; border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; border-right-color: #d2d2d2; border-left-color: #d2d2d2; background-color: #fafafa; }
+.hd #sj1 #sj_2 li { font-size: 14px; line-height: 28px; color: #676767; background-image: url(../images/hsd_03.png); background-repeat: no-repeat; background-position: 13px 8px; background-color: #fafafa; display: block; text-indent: 27px; height: 30px; margin-top: 2px; font-family: truetype; }
+.hd #sj1 #sj_2 a { color: #676767; }
+.hd #sj1 #sj_2 a:hover,.hd #sj1 #sj_2 a.select { color: #0b57ab; background-color: #f2f2f2; text-decoration: none; display: block; background-image: url(../images/hsd_06.png); background-repeat: no-repeat; background-position: 13px 8px; height: 30px; }
+.hd #sj1 #sj_3 { height: 9px; }

@@ -1,0 +1,155 @@
+.qqfoot {
+}
+
+.qqbk {
+	width:100%;overflow: hidden;margin-bottom:18px;BORDER-bottom: #d9d9d9 1px solid;
+}
+
+
+
+
+.sq_form {
+	background:#fff;
+	border:2px solid #c8c8c8;
+	padding:10px 10px 0px 10px;
+	width:464px;
+	_position:absolute;
+	top:50px;
+	left:50%;
+	margin-left:-250px;
+	text-align:left;
+	display:none;
+	position:fixed;
+	z-index:80;
+_top:expression(eval(document.documentElement.scrollTop)+50)
+	
+}
+.sq_form h4 {
+	font-weight:normal;
+	height:44px;
+	line-height:40px;
+	border-bottom:1px solid #ddd;
+	margin-bottom:20px;
+}
+.sq_form h4 span { 
+	text-align:center;
+	color:#666;
+	font-size:22px;
+	width:100%;}
+
+.sq_form h5  { 
+	text-align:center;
+	color:#666;
+	font-size:14px;
+	padding-left:10px;
+	line-height:30px;
+	margin-right: auto;
+	margin-left: auto;
+	font-weight:normal;
+}
+
+
+.sq_form h4 .close {
+	float:right;
+	padding-top:0;
+}
+.sq_form h4 .s_name {
+	color:#333;
+	font-size:20px;
+	padding-top:0;
+}
+
+.qqleftimg {
+	height: 59px;
+	line-height: 59px;
+	overflow: hidden;
+	width:20%;
+	padding-left:10px;
+	padding-right:10px;
+	float:left;
+	font-size:20px;
+	color:#FFF;
+	background-color:#999999;
+	text-align:center;
+}
+
+
+
+.sq_form ul {
+	float:left;
+	width:70%;
+	padding-left:5px;
+}
+
+.sq_form li {
+	float:left;
+	height:30px;
+	margin-bottom:5px;
+	margin-top:8px;
+	width:70px;
+	padding-left:11px;
+}
+.sq_form li span {
+	float:left;
+	width:110px;	
+	text-align:center;
+	color:#666;
+	font-size:14px;
+}
+.sq_form li select.ipt {
+	width:301px;
+	font-size:14px;
+	display:none;
+}
+
+
+.sq_form li .ipt {
+	width:279px;
+	height:29px;
+	line-height:29px;
+	padding-left:20px;
+	border:1px solid #dbdbdb;
+}
+.sq_form li textarea {
+	width:279px;
+	height:60px;
+	line-height:30px;
+	padding-left:20px;
+	border:1px solid #dbdbdb;
+	resize:none;
+}
+.sq_form .li5 {
+	height:62px;
+}
+
+
+
+
+.tshz {
+	float:left;
+	width:70%;
+	padding-left:15px;
+	padding-top:10px;
+}
+
+.tshz ul {
+	float:left;
+	width:150px;
+	padding-left:5px;
+	color:#666;
+}
+
+
+
+
+.tshz ul  span {
+	float:left;
+	font-size:15px;
+	width:150px;
+	line-height:30px;
+	height:30px;
+	color:#666;
+}
+.tshz ul p {line-height:30px; }
+
+

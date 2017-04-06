@@ -1,0 +1,1 @@
+<%@ Page Language="C#" Inherits="UserCenter.System.Pages.Ajax.AjaxPage" %>

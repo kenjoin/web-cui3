@@ -1,0 +1,5 @@
+ALTER TABLE {0} ADD [Hits] integer NOT NULL DEFAULT 0
+
+GO
+
+UPDATE {0} SET [Hits] = 0 WHERE [Hits] IS NULL

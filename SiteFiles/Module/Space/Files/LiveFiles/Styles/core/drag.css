@@ -1,0 +1,116 @@
+ .column {	FLOAT: left;	PADDING-BOTTOM: 1px} 
+ .page {	DISPLAY: none} 
+ .pageActive {	DISPLAY: block} 
+ .pageContainer {	CLEAR: both;	MARGIN-LEFT: -2px;	MARGIN-RIGHT: -3px} 
+ .sheet {	CLEAR: both;	MARGIN-TOP: 3px} 
+ .module {	MARGIN: 5px 3px 5px 2px} 
+ .moduleBodyContainer {	CLEAR: both;	BORDER-RIGHT: #f2f3f1 1px solid;	PADDING-RIGHT: 0px;	PADDING-LEFT: 0px;	PADDING-BOTTOM: 0px;	MARGIN: 0px;	OVERFLOW: hidden;	BORDER-LEFT: #f2f3f1 1px solid;	WIDTH: auto;	PADDING-TOP: 0px;	TEXT-OVERFLOW: ellipsis} 
+ .moduleFooterBar {	OVERFLOW: hidden;	WIDTH: 100%;	COLOR: #ccc;	HEIGHT: 25px;	TEXT-OVERFLOW: ellipsis} 
+ .moduleFooterBar {	BACKGROUND-IMAGE: url(images/mesh_gradient_grey.gif)} 
+ .moduleFooterBar .text {	PADDING-RIGHT: 10px;	PADDING-LEFT: 10px;	FONT-SIZE: smaller;	PADDING-BOTTOM: 0px;	PADDING-TOP: 0px;	WHITE-SPACE: nowrap;	TEXT-ALIGN: right} 
+ .moduleBody {	PADDING-RIGHT: 0.7em;	PADDING-LEFT: 0.7em;	PADDING-BOTTOM: 0px;	OVERFLOW: hidden;	PADDING-TOP: 0.5em} 
+ .ie6ModuleBodyWrapper {	OVERFLOW: hidden;	WIDTH: 100%} 
+ A {	COLOR: #0066a7;	TEXT-DECORATION: none} 
+ .Start_RssModule .rssReadAllLink {MARGIN-LEFT: 8px; color:gray;} 
+ .rssReadAllLink:link {MARGIN-LEFT: 8px; color:gray;} 
+ .rssReadAllLink:visited {MARGIN-LEFT: 8px; color:gray;} 
+ UL {	PADDING-RIGHT: 0px;	PADDING-LEFT: 1em;	PADDING-BOTTOM: 0px;	MARGIN: 0px 0px 20px 1em;	PADDING-TOP: 0px;	LIST-STYLE-TYPE: disc} 
+ UL {	PADDING-RIGHT: 0px;	PADDING-LEFT: 0px;	PADDING-BOTTOM: 0px;	MARGIN: 0px;	PADDING-TOP: 0px;	LIST-STYLE-TYPE: none}
+ .rssList {	PADDING-LEFT: 0px;	MARGIN-LEFT: 0px;	LIST-STYLE-TYPE: none;	TEXT-ALIGN: left;	WORD-WRAP: break-word} 
+ LI {	MARGIN: 0px 0px 3px}
+ .rssItem {	BACKGROUND-POSITION: 0.55em 0.4em;	PADDING-LEFT: 1.65em;	BACKGROUND-IMAGE: url(images/bullet.gif);	BACKGROUND-REPEAT: no-repeat} 
+
+ .rssLink {	FONT-SIZE: 80%;	MARGIN-LEFT: 10px;	VERTICAL-ALIGN: middle} 
+ .rssMoreLink .rssLink {COLOR: gray; FONT-SIZE: 90%;	WHITE-SPACE: nowrap} 
+ .rssHeadlineTitle {	DISPLAY: inline;	CURSOR: pointer;} 
+ .wlhModHdr {	PADDING-RIGHT: 5px;	PADDING-LEFT: 6px;	PADDING-BOTTOM: 0px;	OVERFLOW: visible;	PADDING-TOP: 0px;} 
+ .noIcon {	PADDING-LEFT: 18px} 
+ .wlhModHdrRight {	PADDING-RIGHT: 0px;	PADDING-LEFT: 0px; PADDING-BOTTOM: 0.4em;	PADDING-TOP: 0.4em; HEIGHT:10px;	FLOAT: right;	WIDTH: 15px; WHITE-SPACE: nowrap;	TEXT-ALIGN: right} 
+ .wlhModHdr .wlhModHdrRight .wlhModuleCloseGlyph {	POSITION: relative;	TOP: 0.1em} 
+ .wlhModuleCloseGlyph {	VERTICAL-ALIGN: middle;	MARGIN-RIGHT: 4px} 
+ A IMG {	BORDER-RIGHT: 0px;	BORDER-TOP: 0px;	BORDER-LEFT: 0px;	BORDER-BOTTOM: 0px} 
+ .invisible {	VISIBILITY: hidden} 
+ .wlhModuleOptionsLink {	PADDING-RIGHT: 0px;	PADDING-LEFT: 0px;	FONT-SIZE: 95%;	PADDING-BOTTOM: 0px;	MARGIN-LEFT: 8px;	MARGIN-RIGHT: 4px;	PADDING-TOP: 0px} 
+ .wlhModuleOptionsLink {	COLOR: #777;	TEXT-DECORATION: none} 
+ .wlhModHdrTitle {	PADDING-RIGHT: 0px;	PADDING-LEFT: 5px;	FLOAT: left;	PADDING-BOTTOM: 0px;	OVERFLOW: hidden;		PADDING-TOP: 0px;	WHITE-SPACE: nowrap;	TEXT-OVERFLOW: ellipsis} 
+ .wlhModHdrTitle H3 {	PADDING-RIGHT: 0px;	DISPLAY: inline;	PADDING-LEFT: 0px;	FONT-SIZE: 110%;	PADDING-BOTTOM: 0px;	MARGIN: 0px;	LINE-HEIGHT: 1.6em;	PADDING-TOP: 0px} 
+ .wlhModHdrTitle H3 {	POSITION: relative;	TOP: 0.2em} 
+ .wlhModHdrLeft {	PADDING-RIGHT: 0px;	PADDING-LEFT: 0px;	FLOAT: left;	PADDING-BOTTOM: 0px;	PADDING-TOP: 0px} 
+ .wlhModHdrLeft {	PADDING-RIGHT: 0px;	PADDING-LEFT: 0px;	PADDING-BOTTOM: 0.4em;	PADDING-TOP: 0.4em} 
+ .noIcon .wlhModHdrLeft {	WIDTH: 18px} 
+ .wlhModHdrLeft .wlhModuleIcon {	MARGIN-TOP: -25px;	FLOAT: left;	MARGIN-BOTTOM: -32px;	MARGIN-LEFT: 18px;	POSITION: relative} 
+ .noIcon .wlhModuleIcon {	DISPLAY: none} 
+ .wlhModHdrLeft A {	MARGIN-LEFT: 4px} 
+ 
+ 
+ /* moduleDropdown */
+#moduleDropdown {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	z-index: 1998;
+}
+
+#moduleDropdown-menu {
+	position: relative;
+	float:right;
+	width: 350px;
+	padding: 10px;
+	background-color: #fff;
+	border-top: 1px solid #e5e5e5;
+	border-left: 1px solid #e5e5e5;
+	border-bottom: 1px solid #999;
+	border-right: 1px solid #999;
+	z-index: 1999;
+}
+
+#moduleDropdown-menu dd {
+	float: left;
+	margin:0px;
+	padding:0px;
+	width: 122px;
+	text-align: left;
+}
+
+#moduleDropdown-menu dt {
+	float: left;
+	width: 100%;
+	text-align: right;
+}
+
+#moduleDropdown-menu .menu-title {
+	padding: 3px 5px;
+	font-weight: bold;
+}
+
+#moduleDropdown-menu .menu .divide {
+	border-top: 1px solid #e5e5e5;
+}
+
+#moduleDropdown-menu .menu {
+	padding: 5px;
+	margin:0px;
+}
+
+#moduleDropdown-menu .menu a,#moduleDropdown-menu .menu span.disabled {
+	display: block;
+	width: 95%;
+	padding: 2px 5px;
+	margin:0px;
+}
+
+#moduleDropdown-menu .menu span.disabled,#globalnav .menu span.disabled {
+	color: #999;
+}
+
+#moduleDropdown-menu .menu li {
+	float: none;
+	width: auto;
+	list-style-type: none;
+	padding: 0px;
+	margin:0px;
+}
+
+.hoverclass123 {
+border:1px solid red;
+}

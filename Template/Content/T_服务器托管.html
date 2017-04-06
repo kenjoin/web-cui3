@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{Content.Title}-{Channel.Title}-{Stl.SiteName}</title>
+<!-- header -->
+<stl:include file="/include/header.html"></stl:include>
+
+	<!--header 头部结束-->
+
+
+
+
+<link href="/templets/nettac/images/help_about.css" rel="stylesheet" type="text/css" />
+
+	 <div class="h_header solid"></div>
+
+<div class="marb20"></div>
+
+<div class="layout solid">
+
+<stl:include file="/include/left_nav.html"></stl:include> 
+   
+    <div class="h_mainright">
+    	<div class="h_location">您现在的位：<stl:location separator=" > "></stl:location></div>
+      	<div class="marb20"></div>
+      
+      
+      <!-- start -->
+      <div class="h_news">
+        	
+
+
+<!--表格start-->
+
+<div id="fwqtg_19">
+<div id="fwqtg_18">{Content.Title}</div>
+<div class="fwqtg_21">
+<div id="fwqtg_22">项目</div>
+<div id="fwqtg_23">详细</div>
+<div id="fwqtg_25">时间</div>
+</div>
+
+<div class="fwqtg_26">
+<div id="fwqtg_27">机位</div>
+<div id="fwqtg_23"><span><b>{Content.machine}</b></span></div>
+<div id="fwqtg_28">月付</div>
+<div id="fwqtg_24">年付</div>
+
+</div>
+<!------------->
+<div class="fwqtg_26max">
+<div class="fwqtg_26a">
+<div id="fwqtg_27">默认带宽</div>
+<div id="fwqtg_23">独享 <span>{Content.defaultBand}</span> M</div>
+</div>
+
+
+<div class="fwqtg_26a">
+<div id="fwqtg_27">默认硬防</div>
+<div id="fwqtg_23">单机 <span>{Content.defaultDefence}</span> GB</div>
+</div>
+
+<div class="fwqtg_26a">
+<div id="fwqtg_27">另增IP</div>
+<div id="fwqtg_23"><span>{Content.addIP}元</span>/个/月</div>
+</div>
+
+
+
+<div class="fwqtg_26a">
+<div id="fwqtg_27">线路</div>
+<div id="fwqtg_23"><span>{Content.line}</span></div>
+</div>
+</div>
+
+
+<div id="fwqtg_img"><stl:image altSrc="/uploads/allimg/151107/1-15110G345390-L.png" alt="{Content.Title}"></stl:image>
+</div>
+<!------------->
+
+<div class="fwqtg_26">
+<div id="fwqtg_27">服务器规格</div>
+<div id="fwqtg_23">{Content.kind}</div>
+<div id="fwqtg_28"><span>{Content.oneYear}元</span>/月</div>
+<div id="fwqtg_24"><span>{Content.threeYears}元</span>/年</div>
+</div>
+
+
+<div class="fwqtg_26">
+<div id="fwqtg_miaoshu">描述</div>
+<div id="fwqtg_miaoshu2">{Content.Content}</div>
+<div id="fwqtg_dingg"><a onclick="tryOnLine();" href="javascript:;"> 托管机器 </a></div>
+</div>
+
+
+
+</div>
+
+
+<!--表格end-->
+
+
+<div class="marb20"></div>
+
+<div class="fwqtgxxsm">
+托管推荐机房
+</div>
+
+<div class="marb20"></div>
+
+
+
+
+
+
+
+
+<div id="fwqtg_tj">
+<div id="fwqtg_tj_name">托管推荐</div>
+<div id="fwqtg_tj_xm">
+<div id="fwqtg_tj_title">机房</div>
+<div id="fwqtg_tj_jw">机位</div>
+<div id="fwqtg_tj_xl">线路</div>
+<!--
+<div id="fwqtg_tj_ms">描述</div>
+-->
+<div id="fwqtg_tj_dk">默认带宽</div>
+<div id="fwqtg_tj_yf">默认硬防</div>
+<div id="fwqtg_tj_ip">另增IP/个/年</div>
+<div id="fwqtg_tj_1nf">一年</div>
+<div id="fwqtg_tj_3nf">三年</div>
+<div id="fwqtg_tj_xq">详情</div>
+</div>
+   <stl:contents channelIndex="l2" isRecommend="true" scope="SelfAndChildren">
+  <div id="fwqtg_tj_nr">
+            <div id="fwqtg_tj_title"><stl:a title="{Content.Title}"></stl:a></div>
+            <div id="fwqtg_tj_jw">{Content.slot}</div>
+            <div id="fwqtg_tj_xl">{Content.line}</div>
+            <div id="fwqtg_tj_dk">独享<span>{Content.defaultBand}</span>M</div>
+            <div id="fwqtg_tj_yf">单机<span>{Content.defaultDefence}</span>GB</div>
+            <div id="fwqtg_tj_ip"><span>{Content.addIP}元</span>/个/月</div>
+            <div id="fwqtg_tj_1nf"><span>{Content.oneYear}元</span></div>
+            <div id="fwqtg_tj_3nf"><span>{Content.threeYears}元</span></div>
+            <div id="fwqtg_tj_xq"><i><stl:a title="{Content.Title}">查看详情</stl:a></i></div>
+   </div>
+   </stl:contents>    
+
+</div>
+<div class="marb20"></div>
+<stl:include file="/include/服务器推荐.html"></stl:include>
+      
+      <!-- end -->
+      
+    </div>
+    
+    </div>
+</div>
+
+<div class="marb20"></div>
+
+
+
+<DIV class=marb20></DIV>
+
+
+	<!--footer 底部开始-->
+
+<stl:include file="/include/flooter.html"></stl:include>
+
+
+	<!--footer 底部结束-->
+
+
+<!-- 客服 -->
+<stl:include file="/include/services.html"></stl:include>
+
+
+
+
+
+
+
+
+</BODY>
+</HTML>
